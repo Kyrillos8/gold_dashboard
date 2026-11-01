@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>18K Gold Dashboard</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<style>
+:root{--bg:#faf8f3;--panel:#fff;--fg:#1f1d1a;--muted:#6b665d;--line:#e6e1d6;--gold:#b8860b;--ok:#2f7d4f;--warn:#b7791f;--bad:#b4442f}
+@media (prefers-color-scheme:dark){:root{--bg:#171614;--panel:#211f1c;--fg:#f1ede4;--muted:#a59f93;--line:#35322d;--gold:#e0b04a;--ok:#5fbf86;--warn:#e0a84a;--bad:#e2725b}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:system-ui,-apple-system,"Segoe UI",sans-serif}
+main{max-width:960px;margin:0 auto;padding:24px 16px 48px;display:grid;gap:16px}
+h1{font-family:Georgia,serif;font-weight:500;margin:0;font-size:28px}
+.sub{color:var(--muted);font-size:14px;margin-top:4px}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px;position:relative}
+.lab{font-size:13px;color:var(--muted)}
+.big{font-family:Georgia,serif;font-size:30px;margin-top:6px}
+.sig{font-size:21px;font-weight:600;margin-top:8px}
+h2{font-size:16px;margin:0 0 10px}
+.tip{position:absolute;pointer-events:none;background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:6px 10px;font-size:12px;display:none;white-space:nowrap}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th,td{text-align:left;padding:8px;border-bottom:1px solid var(--line)}
+th{color:var(--muted);font-weight:500}
+li{margin:5px 0;font-size:14px}
+.axis text{fill:var(--muted)} .axis path,.axis line{stroke:var(--line)}
+</style>
+</head>
+<body>
+<main>
+ <header><h1>18K Gold Buying Dashboard</h1><div class="sub" id="updated">Egypt · EGP per gram · loading…</div></header>
+ <div class="kpis">
+  <div class="card"><div class="lab">Latest 18K price / gram</div><div class="big" id="now">—</div></div>
+  <div class="card"><div class="lab">Average (last 90 days)</div><div class="big" id="avg">—</div></div>
+  <div class="card"><div class="lab">Latest vs average</div><div class="big" id="diff">—</div></div>
+  <div class="card"><div class="lab">Buy signal</div><div class="sig" id="sig">—</div></div>
+ </div>
+ <div class="card"><h2>Price history</h2><div id="chart"></div><div class="tip" id="tip"></div></div>
+ <div class="card"><h2>How the signal works</h2><ul>
+  <li><b style="color:var(--ok)">Good time to buy</b>: 3%+ below the 90-day average.</li>
+  <li><b style="color:var(--warn)">Fair price</b>: within ±3%. Buy your usual monthly amount.</li>
+  <li><b style="color:var(--bad)">Expensive, consider waiting</b>: 3%+ above the average.</li>
+  <li>Workmanship (المصنعية) and stamp fees aren't included, so compare shops.</li>
+ </ul></div>
+ <div class="card"><h2>Price log</h2><table><thead><tr><th>Date</th><th>EGP / gram</th><th>Note</th></tr></thead><tbody id="tb"></tbody></table></div>
+</main>
+<script>
+const fmt=n=>Math.round(n).toLocaleString('en-US');
+let rows=[];
+d3.csv('data/prices.csv?'+Date.now()).then(data=>{
+ rows=data.map(r=>({date:r.date,d:new Date(r.date),v:+r.price_egp,note:r.note})).sort((a,b)=>a.d-b.d);
+ const last=rows[rows.length-1];
+ const cutoff=new Date(last.d);cutoff.setDate(cutoff.getDate()-90);
+ const recent=rows.filter(r=>r.d>=cutoff);
+ const avg=d3.mean(recent.length>=3?recent:rows,r=>r.v);
+ const diff=(last.v-avg)/avg*100;
+ document.getElementById('updated').textContent=`Egypt · EGP per gram · last update ${last.date}`;
+ document.getElementById('now').textContent=fmt(last.v);
+ document.getElementById('avg').textContent=fmt(avg);
+ document.getElementById('diff').textContent=(diff>0?'+':'')+diff.toFixed(1)+'%';
+ const s=document.getElementById('sig');
+ if(diff<=-3){s.textContent='Good time to buy';s.style.color='var(--ok)'}
+ else if(diff>=3){s.textContent='Expensive, wait';s.style.color='var(--bad)'}
+ else{s.textContent='Fair price';s.style.color='var(--warn)'}
+ const tb=document.getElementById('tb');
+ rows.slice().reverse().forEach(r=>{const tr=tb.insertRow();[r.date,fmt(r.v),r.note].forEach(t=>tr.insertCell().textContent=t)});
+ draw(avg);
+ window.addEventListener('resize',()=>draw(avg));
+}).catch(()=>document.getElementById('updated').textContent='Could not load price data');
+
+function draw(avg){
+ const c=document.getElementById('chart');c.innerHTML='';
+ const W=Math.max(300,c.clientWidth),H=280,m={t:12,r:16,b:28,l:56};
+ const x=d3.scaleTime().domain(d3.extent(rows,r=>r.d)).range([m.l,W-m.r]);
+ const y=d3.scaleLinear().domain([d3.min(rows,r=>r.v)*0.95,d3.max(rows,r=>r.v)*1.03]).range([H-m.b,m.t]);
+ const svg=d3.select(c).append('svg').attr('width','100%').attr('viewBox',`0 0 ${W} ${H}`);
+ svg.append('g').attr('class','axis').attr('transform',`translate(0,${H-m.b})`).call(d3.axisBottom(x).ticks(Math.min(6,W/90)).tickFormat(d3.timeFormat('%b %y')));
+ svg.append('g').attr('class','axis').attr('transform',`translate(${m.l},0)`).call(d3.axisLeft(y).ticks(5).tickFormat(d3.format(',')));
+ svg.append('line').attr('x1',m.l).attr('x2',W-m.r).attr('y1',y(avg)).attr('y2',y(avg)).attr('stroke','var(--muted)').attr('stroke-dasharray','4 4');
+ svg.append('text').attr('x',W-m.r).attr('y',y(avg)-6).attr('text-anchor','end').attr('font-size',11).attr('fill','var(--muted)').text('90-day average');
+ svg.append('path').datum(rows).attr('fill','none').attr('stroke','var(--gold)').attr('stroke-width',2.5).attr('d',d3.line().x(r=>x(r.d)).y(r=>y(r.v)));
+ const tip=document.getElementById('tip');
+ svg.selectAll('circle').data(rows).join('circle').attr('cx',r=>x(r.d)).attr('cy',r=>y(r.v)).attr('r',rows.length>60?2.5:5).attr('fill','var(--gold)')
+  .on('mousemove',(e,r)=>{const b=c.getBoundingClientRect();tip.style.display='block';tip.textContent=`${r.date}: ${fmt(r.v)} EGP`;let lx=e.clientX-b.left+12;if(lx>W-150)lx-=170;tip.style.left=lx+'px';tip.style.top=(e.clientY-b.top+44)+'px'})
+  .on('mouseleave',()=>tip.style.display='none');
+}
+</script>
+</body>
+</html>
