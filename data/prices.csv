@@ -5,3 +5,4 @@ date,price_egp,note,source
 2026-09-06,5421,Shop sell price per gram,alkhaleej.ae 2026-09-06
 2026-10-09,5240,Shop sell price per gram,mobtada.com/cases/1657606
 2026-11-01,5320,Price per gram today,vetogate.com/5761598
+2026-11-02,5351,"Market rate (gold $3,965/oz x 55.96 EGP/USD)",gold-api.com + open.er-api.com
