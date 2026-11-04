@@ -1,19 +1,34 @@
 {
- "generated": "2026-11-03T17:28+02:00",
- "base_date": "2026-11-03",
- "base_price": 5246,
- "target_date": "2026-11-04",
- "estimate": 5231,
- "low": 5191,
- "high": 5270,
- "change_pct": -0.29,
- "direction": "Down",
- "trend_pct_per_day": -0.22,
- "news_tone": -0.3,
- "news_up": 8,
- "news_down": 15,
+ "generated": "2026-11-04T17:45+02:00",
+ "base_date": "2026-11-04",
+ "base_price": 5395,
+ "target_date": "2026-11-05",
+ "estimate": 5406,
+ "low": 5339,
+ "high": 5472,
+ "change_pct": 0.2,
+ "direction": "Flat",
+ "trend_pct_per_day": 0.2,
+ "news_tone": 0.17,
+ "news_up": 7,
+ "news_down": 5,
  "news_total": 40,
  "headlines": [
+  {
+   "title": "Gold price today, Wednesday, November 4, 2026: Gold prices rise in early trading, but limited gains expected - Yahoo Finance",
+   "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQdTEzRnU0WGNuVHEyUDhldzduei1xZWY5bk9DbTZxal9zcVZtTTgxQXhvc1cxeHQxYWotWnNObWpLX0NPZjljVnUyRUN1cURuVDJiZmNRLUgyTWQ1Umo3YjUyR0hpbnhSUnVlRkJzMlBuQVpraWppN1RJY0s1WkF3cldKTkoyNnhhV1k2aFJIV0pTTzdoMWt5V0JDR3BuOU5zdE1sckV6aUFJRFl0ekp0d3FremtfeXdWZ3oxSEFlc09xLWF2d1BCSkJkVlIzSTJkU2dSTlhVRktPVmw0MC16YUtndWg1S24wZWFtamV1LVE1TGZ6MlZkRzVQdzllbzE4UTA3VGpTV3FNcHc?oc=5",
+   "s": 3
+  },
+  {
+   "title": "Gold gains 3% as dollar slides after Democratic midterm gains - Reuters",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQd0lHOUFsbExIR3lscDNTRy14T012UWd6UlBSLUtySlpjSTdFaEtYLW1hbnpOTHdrSm1fM1RGU2V0WmxNSWJGU3AxeV9PUDVRVm1BRjBBNXQxZVVacElvaE5IbGJFU2FZbnN1Tmg4dlVTZ3prY0U0SEh5X1VzWmxUYnQ3VWhtZGpGOXloc1R6X3BvNlprVmw0UGppaFE2VFcyYkl3SzJ3?oc=5",
+   "s": 1
+  },
+  {
+   "title": "Gold Price Forecast: XAU/USD ticks lower while early trend points to Democrats victory in House - FXStreet",
+   "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPTUVoZzlVSmd6a1oxRXc4ajVuUDBUeU9KUEtBaXltMWhhVFFneTg4TUR3Sm82TlRPV1hPRnVBNDBDS3VTbV9WLVJPNGgwVlJ4cm04TmU2OHRvX3ctVWpHbjZKb2ZLWjFtUzBTX1RKamhDQ0ZrU004YkwwM1dvckUxY0xIbFYwakQtcXU0UlBDOEpDeVdQcjF3VGhXRDM0Ym5lWG1WUV9kd0ZNc2gxRWtqYTlBLThfU0QxMVZSd05ySzZMR1o1U0dJTWNkN2VYZWplUE0yNTIzZWo?oc=5",
+   "s": -1
+  },
   {
    "title": "WGC lowers outlook for gold investment demand growth as bar buying slows - Reuters",
    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNbXNhd2d5cnZVajh5dGZkbnVvc3daNEtvT3NWekFmajVxZ0FfWFRlUGVFb0Z3UWsyWFpVYmN4YmNNdXFkM3gtV0FxcFNjUGtHYVFrNFBoUV9JZl83REU3SmlRTU54bXVSS2NubW1nOEJCVXpyVjdCcnNTUmRmNV9YX05UMDVSTG5zaFA2XzRIMDFZU1kyUVlxVzBfeG9MQjhWdUU5ZEI4bkRUbjEwS3QwTXVGNA?oc=5",
@@ -30,28 +45,13 @@
    "s": -1
   },
   {
+   "title": "Platinum Price Forecast: Dollar Drop Fuels Rebound After US Midterms - FXEmpire",
+   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOSU9zUjAwM1I5Z2l2LVhESlJ2bmxJY0pUUGxUeVlYNEEtZWJiTjg3ek1MRTFWYTM2Yk1xbUtCSFVSejBtdXR4TjJHTXNaZEwyOU1FQTNMNUdKa0pxenNBcU1mbF9sTFRTbW52MmNTaHNLdk85VHBGV3F6MzlqT3NFTWNrRlY1RFNDUmRSdmVrOFdybEl1MVRxOG9tRVF1OV9KbWtPRTMwY3hoRjlLVHhoS2ZNT2hscjMwNGc?oc=5",
+   "s": -1
+  },
+  {
    "title": "Gold Price Forecast: XAU/USD holds Monday’s gains near $3,950 on US-Iran deal hopes - FXStreet",
    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPNWhFcjl6a1Jsd3NEUFc5R3dnRDhMaFhDRm9CODlsMFVhdzdxY1E2ZG5SNWY1UGFXM2c1aW9qQTBNYUZLdnc4NE5vVTJpSlEwdFRRZ0h0VVpTSkFOR3dQaWJteEptYnQtWHdDSVhwNFVxRGdMR3g0b1ZIanItM3g3V0dkeXZnRElHN3RrWDlmQWwxdEZXMVllS2VqeFNiSm1HR0RnNGZaU3hfbVlneVIxMXJxSFNpajF0OEpvQTFkMmY?oc=5",
-   "s": 2
-  },
-  {
-   "title": "Gold Price Forecast: US-Iran deal hopes support XAU/USD near $3,950 as it retains Monday’s gains - www.tmgm.com",
-   "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNYVUwRG0ycENaUi10MFpCNHczRzhmalhoWVNyanBSM0xDSHZzVE5Cb3lTQTRLZklpSU9HQUNrRHFNQzg5d3NYRGdFdTl4czVOR2xqYWl2d1YxV3N4MG1CUkFTQWxZUnBXM1FrRXN6NUNFWF9yZUEtYjVndTNBZzgxNEJFekl2SHFtOGwyVG9wOGx2cXVNMHVyUjVma1JMOUdGcFVQZDhsSXJQWHFlN2RkSk8teGNuRDlNdUtUeTJHTHd5bDJYSkVWbm04NHBReTNOYUhlY2tMaVl1ZW1aNTI0Vkx1OA?oc=5",
-   "s": 2
-  },
-  {
-   "title": "Gold, silver outlook: Sandwiched between bullish bonds and AI angst - FOREX.com",
-   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZnMyRVgwRUh1ei1mUUk0STJ4dHNkaURDQ1JEQ0Q1MkhmYTVodVlHRWVHZDRISkItSTlNUEExc3dYTVpLZUxSQjExMnA5b3Z0bUJVMnIyVmhfNEhFcGIwZVBiMXd0N0xlUzFjQjdZX0pLNFJyTkMxUFMyOERJTVlINXVRb0ppbDBkUUs5bTJjYjl2STBYMWdZRkJ0cFVtSWtHZmltUU4xLURxZUtyQkE?oc=5",
-   "s": 1
-  },
-  {
-   "title": "Gold rate prediction: Will gold price jump after US Midterm elections results? Check critical factors - The Economic Times",
-   "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPMEZ3VTVPbW9XYjZMUEs3RW1yQmVWZ2hJeWZOTEdQamVaMzZfXzdiMnN2REdGczN2TldULXMxeEFfYThNLWdGbmQ2UXczazFfNUp3YnVDRDdlWGI4UUdUdWRRa1loWGVlOFlDNGJuZ0pVSHk4NC1DU1BOM25LMEx3MzhUY1BocWpKeHpGTGVIWTFiMDJyY0d5ZG5nYUZFVjBkWVJoOHVWekQtVXFGS21MWHZYM3Mya0RjTlVFbV9sTFJZYXFaLUxXYllYZjFkV1VaeTVKcUNvbDhhNFVnT0tkM2ZWSVF2T2pBLTd2ZGZublZKVU0xNXhpdkN0bWx6T010Z1MtNDh30gGLAkFVX3lxTE5nTmRXVi14YUIwNnNyRTB6QW1uMXZLUUU1WnoxdjRXLXRmSGFsN1dvQ2FERm9iT2w2blBZQVRSSHZ1VThHRElvSnNwS3JTZTlxOHdWWUU1bzBhLW1tb1ZObXBHekF1blFwRGJRVlBBWnNWZEM4MHNuMlRXTmhMME1mTEpOSFhRLW5LcW1kWW9oSzBXdmttb0Z3QnZGRTBhY285SGV6NHgxSmZYNmxxZFZQSERRd2FPOUF0WDc4T2FkR1ptWENLczNkZnQ3cTloRzl4dHZkOFZhcWJCYTBWQkNlMkZwT1pFN09qVHFjR29TX2pMMnBaWDVfbDUya09kLTJTUHpvQkJzTEgzMA?oc=5",
-   "s": 1
-  },
-  {
-   "title": "Gold Price Forecast: XAU/USD stays near $3,950, retaining Monday’s gains amid hopes of a US-Iran deal - www.tmgm.com",
-   "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNbk53Tl92VEU0VklxelBZamNDcFZLTFZFRE9BZnNYRVhrdDhiNWluRkE3UkUzd1BMa0s2elR1QTZ2VWdOX2Rnakx1YjQ0MjFyRHIwX2ZlYWRFdnZLM3pwczR3aU0wa2RLR0tDQ1kyV0V5UFo4MGdRYlhtQVoyckJZM0daN0ZKRGV5U3RlQ1VPR3B6ZzVzYlBIOFlSVkh2MWRTbXR6Q2tnaDhBU2tOQjRFWENZQ0pKb1RwVzk3Zk9mUXRQNTFieTR4VGNUaTJ1WmpGV1I1OFdnQUdzSjFCVmFTVlRwUQ?oc=5",
    "s": 2
   }
  ]

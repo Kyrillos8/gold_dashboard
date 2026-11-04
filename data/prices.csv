@@ -7,3 +7,4 @@ date,price_egp,note,source
 2026-11-01,5320,Price per gram today,vetogate.com/5761598
 2026-11-02,5351,"Market rate (gold $3,965/oz x 55.96 EGP/USD)",gold-api.com + open.er-api.com
 2026-11-03,5246,"Market rate (gold $3,926/oz x 55.42 EGP/USD)",gold-api.com + open.er-api.com
+2026-11-04,5395,"Market rate (gold $4,041/oz x 55.37 EGP/USD)",gold-api.com + open.er-api.com
