@@ -17,8 +17,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  # Daily: fetch price + forecast and commit to data/. The page reads data
-  # straight from the repo, so no redeploy is needed for new prices.
+  # Daily: fetch price + forecast and commit to data/.
   update:
     if: github.event_name != 'push'
     runs-on: ubuntu-latest
@@ -44,15 +43,18 @@ jobs:
           git diff --cached --quiet || git commit -m "Remove duplicate dates"
           git push
 
-  # On code changes: publish the site.
+  # Publish the site (after each daily update, and on code changes).
   deploy:
-    if: github.event_name == 'push'
+    needs: update
+    if: always() && needs.update.result != 'failure'
     runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deploy.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
+      - name: Use latest data
+        run: git fetch origin main && git reset --hard origin/main
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

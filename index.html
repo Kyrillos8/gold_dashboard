@@ -61,7 +61,7 @@ details summary{cursor:pointer;font-size:14px;color:var(--muted)}
  <div class="card"><h2>Price log</h2><table><thead><tr><th>Date</th><th>EGP / gram</th><th>Note</th></tr></thead><tbody id="tb"></tbody></table></div>
 </main>
 <script>
-const DATA='https://raw.githubusercontent.com/Kyrillos8/gold_dashboard/main/data/';
+const DATA='data/';
 const fmt=n=>Math.round(n).toLocaleString('en-US');
 let rows=[];
 const pricesP=d3.csv(DATA+'prices.csv?'+Date.now()).then(data=>{
