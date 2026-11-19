@@ -1,58 +1,58 @@
 {
- "generated": "2026-11-04T17:45+02:00",
- "base_date": "2026-11-04",
- "base_price": 5395,
- "target_date": "2026-11-05",
- "estimate": 5406,
- "low": 5339,
- "high": 5472,
- "change_pct": 0.2,
- "direction": "Flat",
- "trend_pct_per_day": 0.2,
- "news_tone": 0.17,
- "news_up": 7,
- "news_down": 5,
+ "generated": "2026-11-19T06:44+02:00",
+ "base_date": "2026-11-19",
+ "base_price": 4830,
+ "target_date": "2026-11-20",
+ "estimate": 4812,
+ "low": 4755,
+ "high": 4870,
+ "change_pct": -0.37,
+ "direction": "Down",
+ "trend_pct_per_day": 0.13,
+ "news_tone": -0.71,
+ "news_up": 2,
+ "news_down": 12,
  "news_total": 40,
  "headlines": [
   {
-   "title": "Gold price today, Wednesday, November 4, 2026: Gold prices rise in early trading, but limited gains expected - Yahoo Finance",
-   "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQdTEzRnU0WGNuVHEyUDhldzduei1xZWY5bk9DbTZxal9zcVZtTTgxQXhvc1cxeHQxYWotWnNObWpLX0NPZjljVnUyRUN1cURuVDJiZmNRLUgyTWQ1Umo3YjUyR0hpbnhSUnVlRkJzMlBuQVpraWppN1RJY0s1WkF3cldKTkoyNnhhV1k2aFJIV0pTTzdoMWt5V0JDR3BuOU5zdE1sckV6aUFJRFl0ekp0d3FremtfeXdWZ3oxSEFlc09xLWF2d1BCSkJkVlIzSTJkU2dSTlhVRktPVmw0MC16YUtndWg1S24wZWFtamV1LVE1TGZ6MlZkRzVQdzllbzE4UTA3VGpTV3FNcHc?oc=5",
-   "s": 3
+   "title": "Gold Falls to a 14-Month Low Near $3,760. Will 2027 Finally Bring a Recovery? - Yahoo Finance",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQYkdzNWFJbi1lWkdRb2hPOXNOS3NldWRsYkh4bFlxZXFhRXkzNzZzNjhadS1ieTkyamZjc2FQSGZPUEhIZEhoLXA1VVhNRFkxZ3FJOUljei1Ud0xucXBEUHNMcW5GZUh5M1RGbUdzYzdRSERmY0txZVE0SGREMGtEUlAwZkhCOC1aOFpDc0tmUy15UFJzSnpNUQ?oc=5",
+   "s": -2
   },
   {
-   "title": "Gold gains 3% as dollar slides after Democratic midterm gains - Reuters",
-   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQd0lHOUFsbExIR3lscDNTRy14T012UWd6UlBSLUtySlpjSTdFaEtYLW1hbnpOTHdrSm1fM1RGU2V0WmxNSWJGU3AxeV9PUDVRVm1BRjBBNXQxZVVacElvaE5IbGJFU2FZbnN1Tmg4dlVTZ3prY0U0SEh5X1VzWmxUYnQ3VWhtZGpGOXloc1R6X3BvNlprVmw0UGppaFE2VFcyYkl3SzJ3?oc=5",
+   "title": "Gold drops to 14-month low as dollar, yields rise on hawkish Fed rhetoric - Reuters",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQVlk2MG4xbDV2emVoNk9vRVhTcTlRbkZLMDgwMjBMTEdVeXFDV21zX0NVdmF0YzQzRDZ4TkowaDJQQlZlTDBsbm9BWHFXNXpYZzVVejAtTGRZTTFHRjV4dllJV0ZxVzVvbVJCN1lxdk50NXVaNkRxTGJQbDYyZjhNNElTUElOWVU0eW0ySnBRMndSU1ZrTGE4ZlNMdDk0UXVmUjZLSEVfQlc?oc=5",
+   "s": -1
+  },
+  {
+   "title": "Gold drops 2.5% 📉 Are precious metals entering a bear market? - XTB.com",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPT04zNGxlQmJrbm1YMEF1TkViWXV3WEpPcC1tMHFlSGxiODRFX3NTMTl5NzRWbjhYVy1aakRHdHFmWEJSOHVicm5xRjNKSEQtWXNJY1kxNU1jaUVmU2I5d2c0dzF6ZEw4MWhYVHllVHdjUEpkTkhHWFJ1Q0czYTdRMmMyUlplbkNFU3AwU0lidHB5VmNiNjh5QW9Fa19VN1RaWC1naVpldXJROGhJS3o4S0pVeFRoQQ?oc=5",
+   "s": -2
+  },
+  {
+   "title": "Gold drops to 14-month low as dollar, yields rise on hawkish Fed rhetoric - CNBC",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTXRXUlc4TVVGam9kXzJabE84a2tVS2g4dEUyUE9KbUhaNnVlU1VDaGdZX0RkZHJYaDhKdzVnVkdzVS1TOGF3RjlrVnBUOW5yUVpWa3p3dGR6XzNKZWp6R2c5VXdSR1BmQjJrUlFLZXNkWjNQS2lvcFQyX3RTWHJjQlFOX3dtRlhzSDU2Q01oZWtfVFpIbUF0X0V3WkZreTZGLVHSAacBQVVfeXFMT1BQel9WZ3VlTGtfVFBmR1V6OTRMWEhjQVVYejNzYUFZaWpGRU4xTUxVbjJmQnZSZHVmamI1VGVhekpQYkdIdEI1anpqLS1QM0lBM2x2eXMtbGVjSi1vYmN3em1tRjQ0ZVVyNFN5RVNJaFhGRG5rSlloT3FHOXZyQndBNEVzUTVMOWNDWDZpN3pHa3EtWkdMRWVRTGg1bUlRN0liMVkxNVE?oc=5",
+   "s": -1
+  },
+  {
+   "title": "Gold will reclaim $5,600/oz in 2028 as rate cuts bring Western investors back to precious metals – Goldman Sachs - Kitco",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQSkFNSTNMZjM2c2VOOW1qQmlURFQ2UFNPaVBlLTd0Mm11WVN1c1ptLWxqMlF6MmVTU2ctZlUtWXBHMGsxenpqUGo3RlVDY1Bsd0JIRE8xNUNKV2x4anJJT0FqaFJOZ2VLVE85eXUxZzhJU0IzcEUxc1lfblkxTFA5VXVPVElrcDVTLV9FaDJETTBKc080ZGFYWFU3ZXhGaThoblBNN0xoLTBvWGNQNHR2dDJHWTk?oc=5",
    "s": 1
   },
   {
-   "title": "Gold Price Forecast: XAU/USD ticks lower while early trend points to Democrats victory in House - FXStreet",
-   "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPTUVoZzlVSmd6a1oxRXc4ajVuUDBUeU9KUEtBaXltMWhhVFFneTg4TUR3Sm82TlRPV1hPRnVBNDBDS3VTbV9WLVJPNGgwVlJ4cm04TmU2OHRvX3ctVWpHbjZKb2ZLWjFtUzBTX1RKamhDQ0ZrU004YkwwM1dvckUxY0xIbFYwakQtcXU0UlBDOEpDeVdQcjF3VGhXRDM0Ym5lWG1WUV9kd0ZNc2gxRWtqYTlBLThfU0QxMVZSd05ySzZMR1o1U0dJTWNkN2VYZWplUE0yNTIzZWo?oc=5",
+   "title": "Gold price today, Wednesday, November 18, 2026: Gold prices open again at year-plus lows, falling further - Yahoo Finance",
+   "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOWXlIT0Z6Y0U2RW5CRUx1d0lnZlMtMkwyQms4VlFSZ1k3OTVRdlQwRzIxaUw1YTM0bm94YlZYV3FIV1lsTng3eEhJSzJzSEpvQlRHSUdGNnZDQ2IteTRUSG9vc3NkbWh6WUdCa2UwNGMtMXJVRmZZWUdJbURaQUZ5WlZodHU5V0lsR2JKSjBrQkRURkExanFHSXprLUc1RmluLWMzX09ZYWU5WWRsZWhpZ25aLWJBX3dDa1gzMjIyQlJVM0xhX1IwREpqbkFUbTE1UnI3LTZZcGdKUE1ZYlEwTG51aU84d1Jyd24zckVKQXh6NjBrLWJoN2owdUN6cTNHd2JQZnFmaw?oc=5",
    "s": -1
   },
   {
-   "title": "WGC lowers outlook for gold investment demand growth as bar buying slows - Reuters",
-   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNbXNhd2d5cnZVajh5dGZkbnVvc3daNEtvT3NWekFmajVxZ0FfWFRlUGVFb0Z3UWsyWFpVYmN4YmNNdXFkM3gtV0FxcFNjUGtHYVFrNFBoUV9JZl83REU3SmlRTU54bXVSS2NubW1nOEJCVXpyVjdCcnNTUmRmNV9YX05UMDVSTG5zaFA2XzRIMDFZU1kyUVlxVzBfeG9MQjhWdUU5ZEI4bkRUbjEwS3QwTXVGNA?oc=5",
+   "title": "Gold and Silver Price Forecast: Selloff Deepens Before Fed Minutes - FXEmpire",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPS0JzQS1PcGpZM1FoSE5Nal9IanVkQ0V6LXdDUl9xSXZQanBMNFVaT3FoY0xaUHFnYTRGTEZjSmwxSzYwcTBzY01fenhUb0Z6R1BMVWhOV2hMWjIzYWtmODBzcnlheXFIZ1hDdnVxM2ZlZjc2SlAxZ1FTSGV1SGhEekVza0l1bnZoSkRaWi0yd3ZoV3ZBRzZDcXM4MVlyaGVuNnU1Mm9rWEx3Y0djUGVKcHhqX0Vhck0?oc=5",
    "s": -1
   },
   {
-   "title": "Gold Price Forecast: Prices Slip Ahead of US Midterm Elections - FXEmpire",
-   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOX0lIY3k5aHBqOEVmWHp3VzhmVmllVkVtMFd5S2dieHNqUmZ4UEpXLU4zT0RSUnBnSmlWUDFkZDc4VTVYSWMtazZSbnZwU3kwLU95RHpqb2piRExQQmdnb3pZcTUzVlFjd3BIdTVrZjlxcHNnVUdJOFMtVTFKZGpXX1hYT3BEZUVJakRpOS1XUHMycDAxWmRkTmJ3TFVWRWdJM1R6clBhUktGSUVkNkpZdm9B?oc=5",
+   "title": "Gold (XAU/USD) Price Forecast: Bearish Pressure Builds Below Key Resistance - FXEmpire",
+   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNTjVFclpBTzNDQ2haQl9ENEV2SzRVeHUxM2FCYXJVdnVyTll2WHg4UHpuYnc2U2RJS0NqLUotRTRRZ1F2UUJHNlhXUE9Eai1ZYVU3U2FFM3B6aVJHQVZTcG9iZ0VuNGtUQXFIU3h6aGdrdHNaQkZqZHk5VWpBME9oRGYzdGFWa2NnaVN4Sk52dW9TN1FTU0VpM2pxdUVRUGN3cm5BOXV3WEVEbDQxdnh4WEFSSW1HUENWZklmdXk3NjFLU1E?oc=5",
    "s": -1
-  },
-  {
-   "title": "Gold Price Forecast: XAU/USD 17% Plunge Threatens Multi-Year Uptrend - StoneX",
-   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOMVc5VDAwZFdVZk0xR0l0MDcxSzl2OEtTQmcwMm5HVGptNi1RbU81RWdqclBpbHVzYi00c2J0bzE3dUUxeDNSRHlyRmRPMWdhQlFWUjNpNHhWNkdYVm83OTl6Q0tOR0QxQkVwNjY5OVZ1UzdjXzh4aGg5RFNtbHlZOGlPTzA4OVRSZ0hMWm5KemxDV296SUtZeTYwazJaUTJMUEpVSy1SN05xWnN0elM1YXBtMGhSNFYz?oc=5",
-   "s": -1
-  },
-  {
-   "title": "Platinum Price Forecast: Dollar Drop Fuels Rebound After US Midterms - FXEmpire",
-   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOSU9zUjAwM1I5Z2l2LVhESlJ2bmxJY0pUUGxUeVlYNEEtZWJiTjg3ek1MRTFWYTM2Yk1xbUtCSFVSejBtdXR4TjJHTXNaZEwyOU1FQTNMNUdKa0pxenNBcU1mbF9sTFRTbW52MmNTaHNLdk85VHBGV3F6MzlqT3NFTWNrRlY1RFNDUmRSdmVrOFdybEl1MVRxOG9tRVF1OV9KbWtPRTMwY3hoRjlLVHhoS2ZNT2hscjMwNGc?oc=5",
-   "s": -1
-  },
-  {
-   "title": "Gold Price Forecast: XAU/USD holds Monday’s gains near $3,950 on US-Iran deal hopes - FXStreet",
-   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPNWhFcjl6a1Jsd3NEUFc5R3dnRDhMaFhDRm9CODlsMFVhdzdxY1E2ZG5SNWY1UGFXM2c1aW9qQTBNYUZLdnc4NE5vVTJpSlEwdFRRZ0h0VVpTSkFOR3dQaWJteEptYnQtWHdDSVhwNFVxRGdMR3g0b1ZIanItM3g3V0dkeXZnRElHN3RrWDlmQWwxdEZXMVllS2VqeFNiSm1HR0RnNGZaU3hfbVlneVIxMXJxSFNpajF0OEpvQTFkMmY?oc=5",
-   "s": 2
   }
  ]
 }
