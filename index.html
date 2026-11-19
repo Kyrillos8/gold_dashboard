@@ -61,9 +61,10 @@ details summary{cursor:pointer;font-size:14px;color:var(--muted)}
  <div class="card"><h2>Price log</h2><table><thead><tr><th>Date</th><th>EGP / gram</th><th>Note</th></tr></thead><tbody id="tb"></tbody></table></div>
 </main>
 <script>
+const DATA='https://raw.githubusercontent.com/Kyrillos8/gold_dashboard/main/data/';
 const fmt=n=>Math.round(n).toLocaleString('en-US');
 let rows=[];
-const pricesP=d3.csv('data/prices.csv?'+Date.now()).then(data=>{
+const pricesP=d3.csv(DATA+'prices.csv?'+Date.now()).then(data=>{
  rows=data.map(r=>({date:r.date,d:new Date(r.date),v:+r.price_egp,note:r.note})).sort((a,b)=>a.d-b.d);
  const last=rows[rows.length-1];
  const cutoff=new Date(last.d);cutoff.setDate(cutoff.getDate()-90);
@@ -85,7 +86,7 @@ const pricesP=d3.csv('data/prices.csv?'+Date.now()).then(data=>{
 }).catch(()=>document.getElementById('updated').textContent='Could not load price data');
 
 const $=id=>document.getElementById(id);
-fetch('data/forecast.json?'+Date.now()).then(r=>r.json()).then(f=>{
+fetch(DATA+'forecast.json?'+Date.now()).then(r=>r.json()).then(f=>{
  $('fc-date').textContent='· for '+f.target_date;
  $('fc-est').textContent=fmt(f.estimate);
  const c=$('fc-chg');c.textContent=`${f.change_pct>0?'+':''}${f.change_pct}% vs ${fmt(f.base_price)} (${f.direction})`;
@@ -94,7 +95,7 @@ fetch('data/forecast.json?'+Date.now()).then(r=>r.json()).then(f=>{
  const t=$('fc-tone');t.textContent=f.news_tone>0.15?'Bullish ↑':f.news_tone<-0.15?'Bearish ↓':'Mixed';
  $('fc-tone2').textContent=`${f.news_up} up · ${f.news_down} down · ${f.news_total} headlines`;
  const ul=$('fc-news');(f.headlines||[]).forEach(h=>{const li=document.createElement('li');const a=document.createElement('a');a.href=h.link;a.target='_blank';a.rel='noopener';a.textContent=h.title;li.appendChild(a);li.append(h.s>0?' ↑':h.s<0?' ↓':'');ul.appendChild(li)});
- return Promise.all([d3.csv('data/forecasts.csv?'+Date.now()),pricesP]).then(a=>a[0]);
+ return Promise.all([d3.csv(DATA+'forecasts.csv?'+Date.now()),pricesP]).then(a=>a[0]);
 }).then(hist=>{
  if(!hist)return;
  const byDate=Object.fromEntries(rows.map(r=>[r.date,r.v]));

@@ -2,7 +2,7 @@ name: Update gold price and deploy
 
 on:
   schedule:
-    - cron: "42 7 * * *"   # 9:42 AM Cairo (UTC+2)
+    - cron: "42 7 * * *"   # 9:42 AM Cairo (GitHub may start it later)
   workflow_dispatch:
   push:
     branches: [main]
@@ -13,30 +13,28 @@ permissions:
   id-token: write
 
 concurrency:
-  group: pages
+  group: gold-${{ github.event_name }}
   cancel-in-progress: false
 
 jobs:
+  # Daily: fetch price + forecast and commit to data/. The page reads data
+  # straight from the repo, so no redeploy is needed for new prices.
   update:
+    if: github.event_name != 'push'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-
-      - name: Fetch today's price
-        if: github.event_name != 'push'
-        run: python scripts/update.py
-
+      - name: Fetch today's price and forecast
+        run: |
+          python scripts/update.py
+          python scripts/forecast.py || echo "forecast skipped"
       - name: Commit new data
-        if: github.event_name != 'push'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/prices.csv
-          python scripts/forecast.py || echo "forecast skipped"
           git add data/
           if git diff --cached --quiet; then exit 0; fi
           git commit -m "Update gold price and forecast $(date -u +%F)"
@@ -46,16 +44,15 @@ jobs:
           git diff --cached --quiet || git commit -m "Remove duplicate dates"
           git push
 
+  # On code changes: publish the site.
   deploy:
-    needs: update
+    if: github.event_name == 'push'
     runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deploy.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
-        with:
-          ref: main
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
