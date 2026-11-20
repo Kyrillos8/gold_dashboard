@@ -1,58 +1,58 @@
 {
- "generated": "2026-11-19T18:47+02:00",
- "base_date": "2026-11-19",
- "base_price": 4830,
- "target_date": "2026-11-20",
- "estimate": 4812,
- "low": 4755,
- "high": 4870,
- "change_pct": -0.37,
+ "generated": "2026-11-20T18:21+02:00",
+ "base_date": "2026-11-20",
+ "base_price": 4602,
+ "target_date": "2026-11-21",
+ "estimate": 4571,
+ "low": 4487,
+ "high": 4656,
+ "change_pct": -0.66,
  "direction": "Down",
- "trend_pct_per_day": 0.13,
- "news_tone": -0.71,
- "news_up": 2,
- "news_down": 12,
+ "trend_pct_per_day": -0.58,
+ "news_tone": -0.62,
+ "news_up": 3,
+ "news_down": 13,
  "news_total": 40,
  "headlines": [
   {
-   "title": "Gold recoups from 14-month low, tighter Fed outlook caps gains - Reuters",
-   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZ0RVRVVhd0g1djYyRGpzbTcyZXFtSXd3cTV1T0REekJaYm9FOTlzblJzU3hlMmsxSkF0UmtzZ1gwWVFiUzI3VXdGNzJLTndoZC1oVkpXSnRmZ0ZmNkEybVRFSnhIVzFCNnlTS2hQRGV2bnNGTHVsaUZ5RmllU0otWWcxV2wwejMwcXpTOWFxam1xb2dRMXMyQ1c0T0RkZy1SX09YR3lYdmxkQQ?oc=5",
-   "s": 2
-  },
-  {
-   "title": "Gold Price Forecast: XAU/USD regains ground below $3,700, outlook remains fragile - FXStreet",
-   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPcHljRkd6dVZEZWZOWWU5X2ljMzJTamVFUHNjbXkxRzJsVGdXOEhRQVZYZDVCaXR5bUZDaTFhVHZFMFFvcmZyTlRlS25obW1oemJKV2c5QWMzNTVlMkZCeEpiWlFxWE1hWVdzM0UtV1dQOTJsM2dvX3kxRE5PWmRQSTNRSktpM25nS2w5VzloMXpIeGlUc3FFX2ZNb24taVAyWWVueVJXZHVLZ05YNEdjTUpnTDVKTmV2U0Z3VWJB?oc=5",
-   "s": 2
-  },
-  {
-   "title": "Gold drops to 14-month low as dollar, yields rise on hawkish Fed rhetoric - CNBC",
-   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTXRXUlc4TVVGam9kXzJabE84a2tVS2g4dEUyUE9KbUhaNnVlU1VDaGdZX0RkZHJYaDhKdzVnVkdzVS1TOGF3RjlrVnBUOW5yUVpWa3p3dGR6XzNKZWp6R2c5VXdSR1BmQjJrUlFLZXNkWjNQS2lvcFQyX3RTWHJjQlFOX3dtRlhzSDU2Q01oZWtfVFpIbUF0X0V3WkZreTZGLVHSAacBQVVfeXFMT1BQel9WZ3VlTGtfVFBmR1V6OTRMWEhjQVVYejNzYUFZaWpGRU4xTUxVbjJmQnZSZHVmamI1VGVhekpQYkdIdEI1anpqLS1QM0lBM2x2eXMtbGVjSi1vYmN3em1tRjQ0ZVVyNFN5RVNJaFhGRG5rSlloT3FHOXZyQndBNEVzUTVMOWNDWDZpN3pHa3EtWkdMRWVRTGg1bUlRN0liMVkxNVE?oc=5",
-   "s": -1
-  },
-  {
-   "title": "Gold price prediction: Will gold prices fall to Rs 1.27 lakh per 10 grams? Check outlook on November 19, - The Times of India",
-   "link": "https://news.google.com/rss/articles/CBMiugJBVV95cUxOakJMcmh1djhyNnU2T3RYQjlsVF9nNVFjZ3NBaTZLNC1NSlFlMGFlNmpkSDJTLUg3cC16ampfdUlpLVVwSGwxbHo4cmFBcVNad21KNTVqYkRnMWJnWC1VRFV3aC1aUk04aTE5cHZ6ZF9XSDBNVjlKTDZEOEpDY0FESWV4LXROelphaFhQNmt4S0JxNzZsYjZZUDMtVnhVbmJMOFFJd3lwVTdPZUs0SnZhd245cEhqa090WDBWNXFBRmFfMGZrb0NfU05XRUlaTGJ3dmJXWERDcjVjNWItRm1QQWFfS0dqU2UwZGZkQUd2RmViMm1NNVRUQW12RlJOSlVCaHkxc3d5MFRLTVIwRF9NNS16MGpsOTZuZl81TUpYVC1qbVN3ejFGby1LRVhGSGdwOGI2ZnZqblM1QdIBvwJBVV95cUxPNlZBWllWNUJGNm5IMjdiYVdvN1FTTDhiUE5jYm90YVgxVjBYY0tnWEhTYVkyOWczX3RmMUFCSGVJdTBLeW43VzNINUJHcmFORElrR21SUC1obkd6WTFOalhXb1ZJX0tTeGQ3QUp2d3NjZUNwRm12NlBzckFLb1JXWkVneExGeFZGYlNWWjJ3VWtfaTYwTDl4andNVFlVdVota3o4bzVFWEZxWjVTLW9wdF9VYnhyOFBiaXNPWWNKcG81NE5rVWFNR1g4UXBfQ0xHRTZZeWU1b1RBWlhlVTRvWEd1OHF6VmFoWHdVbkNyR3djVjRWVzFDMXgyeDJEOG5hTFlMeDNwV3hWWlBWS0VSY1dmXzVLdFpZN2hSTEY3QUVldy1mQ1NaUDNhREtRcE5mbXFEMXVtTld0clZ6MmtB?oc=5",
-   "s": -1
-  },
-  {
-   "title": "Bitcoin vs Gold Price Forecast: XAU Hits 14-Month Low as BTC Retests $63K on Fed Rate Hike Fears - CoinGape",
-   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWUVoSVRtZWNiN1piZU5vbTZUVlNiblJIRy11UDdvUEVlb1dxX3J6czlpaGcwWi1PR0ZsZEEyR1gwYy1KdXJaNjA0UzhrSlJhTk9EQnNWUTJMVFBxV25UY0hnRThYeDBrZmtGYkZ6aVBzQTRvTl9YSEhGZjdXVFFRNEZnMncxbl84ZXprSnR0WTNkQ3FHZlFtSGp0ckdOTHRMUkFLN3J1Zmt1MEVPTENfVjlYSUc4WVd2?oc=5",
-   "s": -1
-  },
-  {
-   "title": "Gold drops to 14-month low as dollar, yields rise on hawkish Fed rhetoric - Reuters",
-   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQVlk2MG4xbDV2emVoNk9vRVhTcTlRbkZLMDgwMjBMTEdVeXFDV21zX0NVdmF0YzQzRDZ4TkowaDJQQlZlTDBsbm9BWHFXNXpYZzVVejAtTGRZTTFHRjV4dllJV0ZxVzVvbVJCN1lxdk50NXVaNkRxTGJQbDYyZjhNNElTUElOWVU0eW0ySnBRMndSU1ZrTGE4ZlNMdDk0UXVmUjZLSEVfQlc?oc=5",
-   "s": -1
-  },
-  {
-   "title": "Gold Falls to a 14-Month Low Near $3,760. Will 2027 Finally Bring a Recovery? - Yahoo Finance",
-   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQYkdzNWFJbi1lWkdRb2hPOXNOS3NldWRsYkh4bFlxZXFhRXkzNzZzNjhadS1ieTkyamZjc2FQSGZPUEhIZEhoLXA1VVhNRFkxZ3FJOUljei1Ud0xucXBEUHNMcW5GZUh5M1RGbUdzYzdRSERmY0txZVE0SGREMGtEUlAwZkhCOC1aOFpDc0tmUy15UFJzSnpNUQ?oc=5",
+   "title": "Gold price today, Friday, November 20, 2026: Gold prices continue to fall as rate hike expectations crystallize - Yahoo Finance",
+   "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPTWVucXBjLXNwR3NFaDRBOEtsSTVNUnFfeXRCb3hndUlvT0V4VGpuV0ZLbnI1dzEzZmtOTnNMMlFZdVVkaFFTQ0M2aXY1S3dFOFRja1FwRFpYUFpXM0J4dGxCV0pMcEhoclJfa0NxR1loR2NEalljdjNMZEpVdkNzeS1QWUtZS1laRHYydWRGTFQwNi01MDdaNmhpZzlDTGZtUExVUURYWHJ0bTNiY3R5ZXhhbThvQmtadWtOOGxmc1EzeTdVSl9keGJxdGxvTzZkNHVTQjhZQWtlY0w0M1gtOFd1VlhLRXo0aFNTdEszb0ltQ0NZOXJfVXRqdE43TERBR0U2bWUzb3U4TVRwQ3hOdw?oc=5",
    "s": -2
   },
   {
-   "title": "Gold and Silver Price Forecast: Selloff Deepens Before Fed Minutes - FXEmpire",
-   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPS0JzQS1PcGpZM1FoSE5Nal9IanVkQ0V6LXdDUl9xSXZQanBMNFVaT3FoY0xaUHFnYTRGTEZjSmwxSzYwcTBzY01fenhUb0Z6R1BMVWhOV2hMWjIzYWtmODBzcnlheXFIZ1hDdnVxM2ZlZjc2SlAxZ1FTSGV1SGhEekVza0l1bnZoSkRaWi0yd3ZoV3ZBRzZDcXM4MVlyaGVuNnU1Mm9rWEx3Y0djUGVKcHhqX0Vhck0?oc=5",
+   "title": "Gold's slide deepens as AI rout, rate hike bets hurt bullion - Reuters",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMFFjdnZJUDZiUXhKNUdPUWMtQ2tkd0ZKdmN4TTZ3bnQyb09SQ3cxSS1hNVYtcmF5WGpNSlJzS1dWYkdBUzBJZ2s5TnhLQ29mNWNIUy10MGJkN294UndsTmRmOF9GelkyVkdWRl8wcVJQNnRaRGp0a3NIMWNHT1dJSHhZRk1BT3FRV2pFcHVGa3ozS1ZCdjJXenJvSXlBOEdxLUp2MVVVTVBDY0NGX3ZRRUN3?oc=5",
+   "s": -2
+  },
+  {
+   "title": "Gold Price Forecast: XAU/USD in a freefall - is a bottom in sight? - FXStreet",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWEptRXhqV2tPNVFzbXFFN0t4d0xYaFBmaU1EaHdoLTlXSUNSdEJQdlZUUVpPNmtyV2t1MV9ZUEcwSTR4YWs4X2QyYWhiR0JlRlRkUEVnODFZajRyU3F6VlpFREwwOXItYmlwaTRpTmt4V0VqenRkRVUwZzczOHpkZVJxM3JFeXBLc3NPTEpHNF9JbHhVUUYzRVpLSnNMaDd0bDJjRW1Xb04tSk1Ld0E?oc=5",
    "s": -1
+  },
+  {
+   "title": "Gold's Rally Comes to an End. Forecast as of 20.11.2026 - LiteFinance",
+   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOcWh1RlNGQ1hHa3Zzd3RtTWpld2Z1aW40cko1V2tfWkdBMzFEdDNaUjhjYU4tRnlHZ3Q1SUF6Y1ZMY3R1TVNmWTBNcVN5a0thZ0pRZndNUEt6bWhPTXZHc0tTYW5yblhLTTJPaUlaTFVvWVUwYXYyajZZcTJmRThKYlQ3SzRpczNzX21xVjFqd1dfNFRNNU5jUGFjV2xfZkhkVHZKQmdpdFFTc05zYkhiYUpVT3lURlRjZ0QyT2F1LUhPY3NaRTRBTTlwSDJDNmc?oc=5",
+   "s": 1
+  },
+  {
+   "title": "Gold Price Hits 14 Month Low as Fed Rate Hike Fears Strengthen US Dollar - Investing News Network",
+   "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE11NzllaXVoVklUY3hXdWNpNGZYNUh1Q2NsMVpPdGxGWDBHOEZJTEdmdlZ6V1JhY3hSbXVlN3ZIbDYyMEgwNk9ISldEdlFwbzRwZXZMN09rNjBsaFlCMlkw?oc=5",
+   "s": -1
+  },
+  {
+   "title": "Gold (XAU/USD) Price Forecast: Deeper Decline Targets $3,500 Support Zone - FXEmpire",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQem1NNjhWNkxISTdIZlZiX1g4RlIwTVJ3TjJXaXF6VFlpRm13VEFkOTJFUVllWU1rMGk1ZTQ5SUo3dGdfMGtXNXl1UkRoR0dGczNqR1VPOEY1LTF2Q2xadlU3NmZIbThnREswSjZaY1Y2ZHVFMm5oeUFJZHBlSUlRZFk2dWhsdmlSOU9XSWxhRGVhc2cwb1FjWTlDRHhrYUdhb0d0Y2JvQ19sVG94dVlMd0c0TGprelBtTjNn?oc=5",
+   "s": -1
+  },
+  {
+   "title": "Gold prices could fall another 5% to $3,500 as Fed tightening fears grow – Razaqzada - Kitco",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPb21Fc1g4Vm1ScFJ0ZFRiU0N2Mnktb2tyVWFZMFZPVlFyNm9UanhzR09CXzdteUxJdFdDemgwbXJBSjktUzBObDEzZHJTT1lhTF9PT2Z6U0lnNkhhTUNnT1ozaWt4WmdIWENSXzhYdTVRVXBGc2dwMU1LR0duVy00czM0dHlmQkxfNVplZWo3ZmFoanAyVXktTFZPVGRuOGc4R0d1S1hjNk5wTDlHZzQycVlDUHRhNktLMGxJ?oc=5",
+   "s": -1
+  },
+  {
+   "title": "Gold and Silver Price Forecast: Silver Leads Losses as Dollar Gains - FXEmpire",
+   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNekFlV2JjSzVlazRZbzFfUDhYYVdIbUh1LUpkNFZIR3RkV0pQeUIybC1TWi1WZUtuMmVnOTY3M3BBN2hXUElTZTh4bjNSSGg2WjlqR0xvdnVldldpTXVQSVF3U2V1TVJJYTJpcXV6LUtHT1IzYUY3b3U3Rm9FaTZKVVAtbVY4S3lZWWFCam1jcVd5WGg5WmVZaXJLeHhBZ21oN2VfYXlURlRrUEFjdGx5Sm9NcGg4UzZp?oc=5",
+   "s": 2
   }
  ]
 }
