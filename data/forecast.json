@@ -1,38 +1,33 @@
 {
- "generated": "2026-11-20T18:21+02:00",
- "base_date": "2026-11-20",
- "base_price": 4602,
- "target_date": "2026-11-21",
- "estimate": 4571,
- "low": 4487,
- "high": 4656,
- "change_pct": -0.66,
+ "generated": "2026-11-21T17:36+02:00",
+ "base_date": "2026-11-21",
+ "base_price": 4592,
+ "target_date": "2026-11-22",
+ "estimate": 4551,
+ "low": 4471,
+ "high": 4631,
+ "change_pct": -0.9,
  "direction": "Down",
- "trend_pct_per_day": -0.58,
- "news_tone": -0.62,
- "news_up": 3,
- "news_down": 13,
+ "trend_pct_per_day": -0.59,
+ "news_tone": -1.0,
+ "news_up": 0,
+ "news_down": 25,
  "news_total": 40,
  "headlines": [
   {
-   "title": "Gold price today, Friday, November 20, 2026: Gold prices continue to fall as rate hike expectations crystallize - Yahoo Finance",
-   "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPTWVucXBjLXNwR3NFaDRBOEtsSTVNUnFfeXRCb3hndUlvT0V4VGpuV0ZLbnI1dzEzZmtOTnNMMlFZdVVkaFFTQ0M2aXY1S3dFOFRja1FwRFpYUFpXM0J4dGxCV0pMcEhoclJfa0NxR1loR2NEalljdjNMZEpVdkNzeS1QWUtZS1laRHYydWRGTFQwNi01MDdaNmhpZzlDTGZtUExVUURYWHJ0bTNiY3R5ZXhhbThvQmtadWtOOGxmc1EzeTdVSl9keGJxdGxvTzZkNHVTQjhZQWtlY0w0M1gtOFd1VlhLRXo0aFNTdEszb0ltQ0NZOXJfVXRqdE43TERBR0U2bWUzb3U4TVRwQ3hOdw?oc=5",
-   "s": -2
-  },
-  {
-   "title": "Gold's slide deepens as AI rout, rate hike bets hurt bullion - Reuters",
+   "title": "Gold's slide deepens as AI rout, rate-hike bets hurt bullion - Reuters",
    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMFFjdnZJUDZiUXhKNUdPUWMtQ2tkd0ZKdmN4TTZ3bnQyb09SQ3cxSS1hNVYtcmF5WGpNSlJzS1dWYkdBUzBJZ2s5TnhLQ29mNWNIUy10MGJkN294UndsTmRmOF9GelkyVkdWRl8wcVJQNnRaRGp0a3NIMWNHT1dJSHhZRk1BT3FRV2pFcHVGa3ozS1ZCdjJXenJvSXlBOEdxLUp2MVVVTVBDY0NGX3ZRRUN3?oc=5",
-   "s": -2
-  },
-  {
-   "title": "Gold Price Forecast: XAU/USD in a freefall - is a bottom in sight? - FXStreet",
-   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWEptRXhqV2tPNVFzbXFFN0t4d0xYaFBmaU1EaHdoLTlXSUNSdEJQdlZUUVpPNmtyV2t1MV9ZUEcwSTR4YWs4X2QyYWhiR0JlRlRkUEVnODFZajRyU3F6VlpFREwwOXItYmlwaTRpTmt4V0VqenRkRVUwZzczOHpkZVJxM3JFeXBLc3NPTEpHNF9JbHhVUUYzRVpLSnNMaDd0bDJjRW1Xb04tSk1Ld0E?oc=5",
    "s": -1
   },
   {
-   "title": "Gold's Rally Comes to an End. Forecast as of 20.11.2026 - LiteFinance",
-   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOcWh1RlNGQ1hHa3Zzd3RtTWpld2Z1aW40cko1V2tfWkdBMzFEdDNaUjhjYU4tRnlHZ3Q1SUF6Y1ZMY3R1TVNmWTBNcVN5a0thZ0pRZndNUEt6bWhPTXZHc0tTYW5yblhLTTJPaUlaTFVvWVUwYXYyajZZcTJmRThKYlQ3SzRpczNzX21xVjFqd1dfNFRNNU5jUGFjV2xfZkhkVHZKQmdpdFFTc05zYkhiYUpVT3lURlRjZ0QyT2F1LUhPY3NaRTRBTTlwSDJDNmc?oc=5",
-   "s": 1
+   "title": "Gold and Silver Slide as Fed Eyes Rate Hikes at Dec. 9 Meeting - JCK",
+   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9mNWFoeVE3YlRUWGU3dTFzNzVoYWFJMmRaM0UtVGtoYmtlZGtvUFZ4RXJDU1JDRGNncERzQ25Cc215SXpQVXZsU2x2OE1NQXFIazk0dUZSR3FVUDZmZ1lYSTVwLVhSd3JTYXNaOUJVNmRHekpt?oc=5",
+   "s": -2
+  },
+  {
+   "title": "Fed Rate-Hike Expectations and Stronger Dollar Send New York Gold Tumbling Nearly 5% in a Single Session, Breaking Below $3,550 - BigGo Finance",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9MQ29qQ2syYzJKOS1GdkwzUU9Hd21PR2dNMVRvalhzZXdmakZWampYSWxvMnJBTFBrd3pnVUdyLUthWDBMZEQ0M2l2X2ZVMTBpazYwUVF1NVJqczhtUExzYkxkWmZUQzhfdzJYS0tCbTJ1UUhQakE?oc=5",
+   "s": -1
   },
   {
    "title": "Gold Price Hits 14 Month Low as Fed Rate Hike Fears Strengthen US Dollar - Investing News Network",
@@ -40,8 +35,8 @@
    "s": -1
   },
   {
-   "title": "Gold (XAU/USD) Price Forecast: Deeper Decline Targets $3,500 Support Zone - FXEmpire",
-   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQem1NNjhWNkxISTdIZlZiX1g4RlIwTVJ3TjJXaXF6VFlpRm13VEFkOTJFUVllWU1rMGk1ZTQ5SUo3dGdfMGtXNXl1UkRoR0dGczNqR1VPOEY1LTF2Q2xadlU3NmZIbThnREswSjZaY1Y2ZHVFMm5oeUFJZHBlSUlRZFk2dWhsdmlSOU9XSWxhRGVhc2cwb1FjWTlDRHhrYUdhb0d0Y2JvQ19sVG94dVlMd0c0TGprelBtTjNn?oc=5",
+   "title": "Gold Prices Hit 14-Month Low as Strong Dollar and Fed Rate Hike Bets Drive Weekly Sell-Off - Yahoo Finance UK",
+   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9hZlFpTWljQTB3bFhudTY3NW1yVEdYelJBVGNpZDI4NVp1T3pucGRfR1FLSl9GNFhHVVplNHB5TVN2UEd2TEVYVE56bGQ4YV9ONU9KZTl2RzFWTGdqeDNjdkZvS1liYnp2WFVlVWRlb0RvZVBKY1pSVXdYd0ltQQ?oc=5",
    "s": -1
   },
   {
@@ -50,9 +45,14 @@
    "s": -1
   },
   {
-   "title": "Gold and Silver Price Forecast: Silver Leads Losses as Dollar Gains - FXEmpire",
-   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNekFlV2JjSzVlazRZbzFfUDhYYVdIbUh1LUpkNFZIR3RkV0pQeUIybC1TWi1WZUtuMmVnOTY3M3BBN2hXUElTZTh4bjNSSGg2WjlqR0xvdnVldldpTXVQSVF3U2V1TVJJYTJpcXV6LUtHT1IzYUY3b3U3Rm9FaTZKVVAtbVY4S3lZWWFCam1jcVd5WGg5WmVZaXJLeHhBZ21oN2VfYXlURlRrUEFjdGx5Sm9NcGg4UzZp?oc=5",
-   "s": 2
+   "title": "Gold hits 14-month low on AI stock losses and Fed rate hike bets - Nation Thailand",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5pSWg2ckx4X21JVDQ3am5UeFZ6QmNNazVMbW1HMkJza2J4SlNmSlhwMTRJU1EwM1lMUm5xTWhEWTZZb0VCMWFtazJqMGNJSV9udTRjeE92X2EwUEVhbjlBelFVRENMS2xXQldnRy1HWHRhM2UwVFE?oc=5",
+   "s": -1
+  },
+  {
+   "title": "Gold prices crash nearly 10% in a week: Mega reasons behind massive yellow metal rate fall – List - Livemint",
+   "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNdkRNVGdWWEcxbEI2empjUWVmV1NtOGVVRVZJV0Zra0hLMlJXX1NrTHo2U1ctNnRaUTJKNFV5cHBmaWRsRXVXSnpFaXJIUFlNcjdzc1RsWWY2aUUwSDBoYzVEZ2Q2dktsZUtId3k4UkxlMWRkNTFVdC1ObC1pS1BiNmJ1VVd2NXNPLVpaTW9RN0ZOZ1VDUXJUU2ljeURDWFVkWGI1WUlKbmNuVTdVbHZTZExkVmZpTHFyajVQNWswZ0o5Z2Z4Q2VKOFJ4bml2aHpUSWw5bW9iYnVUb1JlekFac01QN0ZZNEpORE9DaW1kTW91X3PSAfgBQVVfeXFMT1JQLWZPS0NLcEE4R2JtSC1lTmNHVFZ6NFhsR0VQcXVBSGRYWFY3M2JSS1ZJNlZ6U3VaWEdvMF9XWlhQa1ZQZnJhWExMN25pTjN6TXpMZ1JvdkliamliSWxja2xZUm1ZVFphbi1BZnRpVS1hU3haYUIxZ0szMV90RXkyZ2VEVjVYRXFuTjMySFRQc0M3SWk5czRvbnR2R1doTTZkS0M0U1Jpb3dIMDZYY09fXzFkRGJaanNfdjlLdjJOOF9oempjRmt2Y0RvUkZ3dWI3U3NNRW1oNjFuaDYtWE5OaVpOTXYzeGd5RUtJVDhORWhnd3E0SUY?oc=5",
+   "s": -1
   }
  ]
 }
