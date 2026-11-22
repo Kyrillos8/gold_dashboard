@@ -1,37 +1,27 @@
 {
- "generated": "2026-11-22T12:24+02:00",
+ "generated": "2026-11-22T17:40+02:00",
  "base_date": "2026-11-22",
  "base_price": 4592,
  "target_date": "2026-11-23",
- "estimate": 4558,
- "low": 4481,
- "high": 4634,
- "change_pct": -0.75,
+ "estimate": 4551,
+ "low": 4474,
+ "high": 4628,
+ "change_pct": -0.9,
  "direction": "Down",
  "trend_pct_per_day": -0.6,
- "news_tone": -0.75,
- "news_up": 3,
- "news_down": 21,
+ "news_tone": -1.0,
+ "news_up": 0,
+ "news_down": 22,
  "news_total": 40,
  "headlines": [
-  {
-   "title": "Gold's slide deepens as AI rout, rate-hike bets hurt bullion - Reuters",
-   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMFFjdnZJUDZiUXhKNUdPUWMtQ2tkd0ZKdmN4TTZ3bnQyb09SQ3cxSS1hNVYtcmF5WGpNSlJzS1dWYkdBUzBJZ2s5TnhLQ29mNWNIUy10MGJkN294UndsTmRmOF9GelkyVkdWRl8wcVJQNnRaRGp0a3NIMWNHT1dJSHhZRk1BT3FRV2pFcHVGa3ozS1ZCdjJXenJvSXlBOEdxLUp2MVVVTVBDY0NGX3ZRRUN3?oc=5",
-   "s": -1
-  },
-  {
-   "title": "Gold price today, Friday, November 20, 2026: Gold prices continue to fall as rate hike expectations crystallize - Yahoo Finance",
-   "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPTWVucXBjLXNwR3NFaDRBOEtsSTVNUnFfeXRCb3hndUlvT0V4VGpuV0ZLbnI1dzEzZmtOTnNMMlFZdVVkaFFTQ0M2aXY1S3dFOFRja1FwRFpYUFpXM0J4dGxCV0pMcEhoclJfa0NxR1loR2NEalljdjNMZEpVdkNzeS1QWUtZS1laRHYydWRGTFQwNi01MDdaNmhpZzlDTGZtUExVUURYWHJ0bTNiY3R5ZXhhbThvQmtadWtOOGxmc1EzeTdVSl9keGJxdGxvTzZkNHVTQjhZQWtlY0w0M1gtOFd1VlhLRXo0aFNTdEszb0ltQ0NZOXJfVXRqdE43TERBR0U2bWUzb3U4TVRwQ3hOdw?oc=5",
-   "s": -2
-  },
   {
    "title": "Gold (XAU/USD) Price Forecast: Deepening Selloff Nears Major Support - FXEmpire",
    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPOEZjQ2ZoWURweVpkOHVUUk92cmlKM2lyeXV2ZFdma2tjemIwYU54Q1hxQ2p2ODlxOTdjMGQtUGJrNWdJYzc5OTZrWk1XZnJIblB0U2d2TjdmaS1uSGREVVNHY2JpQTQzS2RPNEVQdU9WZ0VHc1VrLWVZa0hlazlBUlZDSUhPX0RLQjRjYVdaLW9WajQ5MkwtLXRrcUhJQTBBNlFrSTlSUXlPU0dLbGRZYWVtMTBuRzQ?oc=5",
    "s": -1
   },
   {
-   "title": "Gold price could drop $300 if $3,500/oz fails, and buyers might hold off until the Fed – Walsh Trading’s Lusk - Kitco",
-   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQY1gxakxUOS1VZGh6VUEwdDhhdDAySkdGT3JQU2pUMnVXN2RiNFRHV3g1MEtsaEtfQUVVNGNPRnJTSVJiSGdVTmRFVVVGLTZhcG1jenZPb2JKYWtweUltNi1fLWlFSXVlVWFPNEU2aHlPSkNkUFQyaDEyZlAwVy1waVFZY0dtSGtGTUVUOWw4eUFTRTJ5RENUVUw4Qk9nMFJKbGNTamNHU3F6NDEydHZHU3RLMUhXb2NGd2Jz?oc=5",
+   "title": "Gold's slide deepens as AI rout, rate-hike bets hurt bullion - Reuters",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMFFjdnZJUDZiUXhKNUdPUWMtQ2tkd0ZKdmN4TTZ3bnQyb09SQ3cxSS1hNVYtcmF5WGpNSlJzS1dWYkdBUzBJZ2s5TnhLQ29mNWNIUy10MGJkN294UndsTmRmOF9GelkyVkdWRl8wcVJQNnRaRGp0a3NIMWNHT1dJSHhZRk1BT3FRV2pFcHVGa3ozS1ZCdjJXenJvSXlBOEdxLUp2MVVVTVBDY0NGX3ZRRUN3?oc=5",
    "s": -1
   },
   {
@@ -40,18 +30,28 @@
    "s": -1
   },
   {
+   "title": "Gold price could drop $300 if $3,500/oz fails, and buyers might hold off until the Fed – Walsh Trading’s Lusk - Kitco",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQY1gxakxUOS1VZGh6VUEwdDhhdDAySkdGT3JQU2pUMnVXN2RiNFRHV3g1MEtsaEtfQUVVNGNPRnJTSVJiSGdVTmRFVVVGLTZhcG1jenZPb2JKYWtweUltNi1fLWlFSXVlVWFPNEU2aHlPSkNkUFQyaDEyZlAwVy1waVFZY0dtSGtGTUVUOWw4eUFTRTJ5RENUVUw4Qk9nMFJKbGNTamNHU3F6NDEydHZHU3RLMUhXb2NGd2Jz?oc=5",
+   "s": -1
+  },
+  {
+   "title": "Gold in a free fall: Why November 25, December 4 and 9 could be crucial for prices - Upstox",
+   "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOQ2h4RkRfeDhIVmNKcEl3MHR4ZzhLWkxtRVZNVkNWQ3VuOE9WZnN3dWY3aTVaUW43T2F6VVNnakUzaDZUN1d3OElCck5OdGV5QjA0TmczOUpBcEh3cktWVTY5VUROR0xvTDktakZJaGlsakdST1JxdXgzWFBrUi0zQVJEQ3ZCQkhHYWJfZjh5MndHbEV4eFpIWUc0NGpwaUNnQjRyNVlKVlF4RmRUTkI3cWVpa3Q0aHZLaUlibmlEMERSWHIzTXNOTWtVR1FpcHVlTGcyRFpRVEU0c1R5?oc=5",
+   "s": -1
+  },
+  {
    "title": "Why Gold Prices Are Falling - Outlook Money",
    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBxSks4bHh6ZDFyWmU1OTJNcEVXSEdZMzBCbUprbXFWVU1HQmVvSm5MLW5ud29rVnJHdVc1M1hkb0wzdU5wVUxFUzhPSEdsQmREVnpLTFJ6M3hfYU5MemVzV28tVllqOWgtSnUwV05SMFrSAX5BVV95cUxOejRJdDFvX1RqRlFTVzhaVjRhVEt1MmZ1VGNkSG1NNUlwYUo1RGlQYTlVb00zdW5HWjZZVVlKV0ItSDBNVm5JRFBMeGR2OVBzVUlwc0NjT3cya0lJRlZPZU55QWtjWExoRUd3WDV3Tkt2NGNEcTcxcUZrWV93dkE?oc=5",
    "s": -2
   },
   {
-   "title": "Wall Street stays bearish after gold’s slide to $3,500, Main Street pessimism deepens ahead of holiday week - Kitco",
-   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPMzNZSEhWdkUzUk5sejZ4cDNvV3YyZ1I5d1RSUFdrLXNILVZIS1RmZU1ROTE3RG5fZllqc2lZNzh0UkpyYmk1Uk5GUjlxOGVxdW81WTdsRFZzMlpQdkJNUjhLM1EwZlg0Y2ZXb0VJLTB6U0FtMjlxVUF2UkFGNEVYNWZ1THNBM1cxTkxCd2hUY3Y3ckRrUE9zZFpkbHphdkN0aDhWOE5LT1RwMTFYRVVLeE05Ti1remM?oc=5",
+   "title": "Gold and Silver Slide as Fed Eyes Rate Hikes at Dec. 9 Meeting - JCK",
+   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9mNWFoeVE3YlRUWGU3dTFzNzVoYWFJMmRaM0UtVGtoYmtlZGtvUFZ4RXJDU1JDRGNncERzQ25Cc215SXpQVXZsU2x2OE1NQXFIazk0dUZSR3FVUDZmZ1lYSTVwLVhSd3JTYXNaOUJVNmRHekpt?oc=5",
    "s": -2
   },
   {
-   "title": "Gold Price Forecast: Does Gold Falling Below $4,000 Mean the Bull Market Is Over? Will It Still Rise in the Second Half of 2026? - TradingKey",
-   "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQbWZOejQxQ2RhbkVrUE9TNW9WVGtMMkZtbGluV0gxSndrV05tc0hIZzlYNnoxSFgwWGl4NVlYdkF0UjhBSEdaSGk5N3ZGZGwwT0tCZ2d2UXBnSzlSNHhwdEVDMUhaOFc3QzZHVlhreDhYQzVSTnZOWDRoZHRSMGctODlzWnM0cG1hai1VeHZwcTZ3NWliS1l2bjVRQmJCSmF3NEk1RGd6S3hodTlic0NjRUdYQ3VTdEtWZDNXVnNISWl2S3RmdmVaSUItZFFJdUhNSlg2N0x6TElqdkNWN3NVeTk1WURDc1EyUTBGYjBR?oc=5",
+   "title": "World gold price today, November 22nd: Wall Street forecasts continued wave of decline next week - Laodong.vn",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQSzB6NEx0WDVBVjBscHNzVzU0Q2s4ZW1JWk5mc01WQi1nN3NobTNCRXlNVndUZ0lXR1dKLWl5TmFJYjg3QzBjZFU5cFVya2gxTDduS0lXeVhYcHpsR2lBLVpiYUpiTEZpLXIyWXJmOVhQaXV2MnJfUDRLSXc4bjJLSXB4SlFFcERzWEVZUUtZTVVuU19HRFM4NjVxeENXRGU2V0lEWWQ3b1VBSk9VU0daWnE1SkRjTGlwZF9V?oc=5",
    "s": -1
   }
  ]
