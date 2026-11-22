@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" dir="ltr">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,9 +9,14 @@
 :root{--bg:#faf8f3;--panel:#fff;--fg:#1f1d1a;--muted:#6b665d;--line:#e6e1d6;--gold:#b8860b;--ok:#2f7d4f;--warn:#b7791f;--bad:#b4442f}
 @media (prefers-color-scheme:dark){:root{--bg:#171614;--panel:#211f1c;--fg:#f1ede4;--muted:#a59f93;--line:#35322d;--gold:#e0b04a;--ok:#5fbf86;--warn:#e0a84a;--bad:#e2725b}}
 *{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--fg);font-family:system-ui,-apple-system,"Segoe UI",sans-serif}
-main{max-width:960px;margin:0 auto;padding:24px 16px 48px;display:grid;gap:16px}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:system-ui,-apple-system,"Segoe UI",Tahoma,sans-serif}
+main{max-width:960px;margin:0 auto;padding:16px 16px 48px;display:grid;gap:16px}
+.top{display:flex;justify-content:flex-end}
+.lang{display:inline-flex;border:1px solid var(--line);border-radius:999px;overflow:hidden;background:var(--panel)}
+.lang button{border:0;background:none;color:var(--fg);padding:8px 16px;font:inherit;font-size:14px;cursor:pointer}
+.lang button.on{background:var(--gold);color:#fff}
 h1{font-family:Georgia,serif;font-weight:500;margin:0;font-size:28px}
+[dir=rtl] h1,[dir=rtl] .big{font-family:inherit}
 .sub{color:var(--muted);font-size:14px;margin-top:4px}
 .kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px}
 .card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px;position:relative}
@@ -21,106 +26,159 @@ h1{font-family:Georgia,serif;font-weight:500;margin:0;font-size:28px}
 h2{font-size:16px;margin:0 0 10px}
 .tip{position:absolute;pointer-events:none;background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:6px 10px;font-size:12px;display:none;white-space:nowrap}
 table{width:100%;border-collapse:collapse;font-size:14px}
-th,td{text-align:left;padding:8px;border-bottom:1px solid var(--line)}
+th,td{text-align:start;padding:8px;border-bottom:1px solid var(--line)}
 th{color:var(--muted);font-weight:500}
 li{margin:5px 0;font-size:14px}
 .fc-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:16px;margin-bottom:12px}
 .fc-range{font-size:20px;font-weight:600;margin-top:8px}
 details summary{cursor:pointer;font-size:14px;color:var(--muted)}
 #fc-news a{color:var(--fg)} #fc-news li{font-size:13px}
+#chart svg{direction:ltr}
 .axis text{fill:var(--muted)} .axis path,.axis line{stroke:var(--line)}
+.num{direction:ltr;unicode-bidi:isolate}
+td.num{white-space:nowrap}
 </style>
 </head>
 <body>
 <main>
- <header><h1>18K Gold Buying Dashboard</h1><div class="sub" id="updated">Egypt · EGP per gram · loading…</div></header>
+ <div class="top"><div class="lang"><button id="b-en" type="button">English</button><button id="b-ar" type="button">العربية</button></div></div>
+ <header><h1 data-t="title"></h1><div class="sub" id="updated"></div></header>
  <div class="kpis">
-  <div class="card"><div class="lab">Latest 18K price / gram</div><div class="big" id="now">—</div></div>
-  <div class="card"><div class="lab">Average (last 90 days)</div><div class="big" id="avg">—</div></div>
-  <div class="card"><div class="lab">Latest vs average</div><div class="big" id="diff">—</div></div>
-  <div class="card"><div class="lab">Buy signal</div><div class="sig" id="sig">—</div></div>
+  <div class="card"><div class="lab" data-t="latest"></div><div class="big num" id="now">—</div></div>
+  <div class="card"><div class="lab" data-t="avg90"></div><div class="big num" id="avg">—</div></div>
+  <div class="card"><div class="lab" data-t="vsavg"></div><div class="big num" id="diff">—</div></div>
+  <div class="card"><div class="lab" data-t="signal"></div><div class="sig" id="sig">—</div></div>
  </div>
  <div class="card fc">
-  <h2>Tomorrow's estimate <span class="lab" id="fc-date"></span></h2>
+  <h2><span data-t="tomorrow"></span> <span class="lab" id="fc-date"></span></h2>
   <div class="fc-row">
-   <div><div class="lab">Estimated 18K / gram</div><div class="big" id="fc-est">—</div><div class="lab" id="fc-chg"></div></div>
-   <div><div class="lab">Likely range</div><div class="fc-range" id="fc-range">—</div></div>
-   <div><div class="lab">News tone (last 2 days)</div><div class="fc-range" id="fc-tone">—</div><div class="lab" id="fc-tone2"></div></div>
-   <div><div class="lab">Past estimates accuracy</div><div class="fc-range" id="fc-acc">—</div><div class="lab" id="fc-acc2"></div></div>
+   <div><div class="lab" data-t="est"></div><div class="big num" id="fc-est">—</div><div class="lab" id="fc-chg"></div></div>
+   <div><div class="lab" data-t="range"></div><div class="fc-range num" id="fc-range">—</div></div>
+   <div><div class="lab" data-t="tone"></div><div class="fc-range" id="fc-tone">—</div><div class="lab" id="fc-tone2"></div></div>
+   <div><div class="lab" data-t="acc"></div><div class="fc-range" id="fc-acc">—</div><div class="lab" id="fc-acc2"></div></div>
   </div>
-  <details><summary>Headlines behind this estimate</summary><ul id="fc-news"></ul></details>
-  <div class="lab" style="margin-top:8px">Rough estimate from the recent price trend plus the tone of gold news headlines (Fed, dollar, global markets, Egyptian market). Gold is hard to predict: treat this as a hint, not advice.</div>
+  <details><summary data-t="headlines"></summary><ul id="fc-news"></ul></details>
+  <div class="lab" style="margin-top:8px" data-t="fcnote"></div>
  </div>
- <div class="card"><h2>Price history</h2><div id="chart"></div><div class="tip" id="tip"></div></div>
- <div class="card"><h2>How the signal works</h2><ul>
-  <li><b style="color:var(--ok)">Good time to buy</b>: 3%+ below the 90-day average.</li>
-  <li><b style="color:var(--warn)">Fair price</b>: within ±3%. Buy your usual monthly amount.</li>
-  <li><b style="color:var(--bad)">Expensive, consider waiting</b>: 3%+ above the average.</li>
-  <li>Workmanship (المصنعية) and stamp fees aren't included, so compare shops.</li>
+ <div class="card"><h2 data-t="history"></h2><div id="chart"></div><div class="tip" id="tip"></div></div>
+ <div class="card"><h2 data-t="how"></h2><ul>
+  <li><b style="color:var(--ok)" data-t="r1a"></b><span data-t="r1b"></span></li>
+  <li><b style="color:var(--warn)" data-t="r2a"></b><span data-t="r2b"></span></li>
+  <li><b style="color:var(--bad)" data-t="r3a"></b><span data-t="r3b"></span></li>
+  <li data-t="r4"></li>
  </ul></div>
- <div class="card"><h2>Price log</h2><table><thead><tr><th>Date</th><th>EGP / gram</th><th>Note</th></tr></thead><tbody id="tb"></tbody></table></div>
+ <div class="card"><h2 data-t="log"></h2><table><thead><tr><th data-t="date"></th><th data-t="egpg"></th><th data-t="note"></th></tr></thead><tbody id="tb"></tbody></table></div>
 </main>
 <script>
-const DATA='data/';
+const T={
+ en:{title:'18K Gold Buying Dashboard',sub:d=>`Egypt · EGP per gram · last update ${d}`,loading:'Egypt · EGP per gram · loading…',loadfail:'Could not load price data',
+  latest:'Latest 18K price / gram',avg90:'Average (last 90 days)',vsavg:'Latest vs average',signal:'Buy signal',
+  good:'Good time to buy',fair:'Fair price',exp:'Expensive, wait',
+  tomorrow:"Tomorrow's estimate",forD:d=>'· for '+d,est:'Estimated 18K / gram',range:'Likely range',tone:'News tone (last 2 days)',acc:'Past estimates accuracy',
+  chg:(p,b,dir)=>`${p} vs ${b} (${dir})`,Up:'Up',Down:'Down',Flat:'Flat',
+  bull:'Bullish ↑',bear:'Bearish ↓',mixed:'Mixed',tone2:(u,d,n)=>`${u} up · ${d} down · ${n} headlines`,
+  notyet:'Not yet',builds:'Builds up day by day',avgerr:e=>`±${e}% avg error`,inrange:(a,b)=>`${a} of ${b} days landed in range`,noest:'Estimate not available yet',
+  headlines:'Headlines behind this estimate',
+  fcnote:'Rough estimate from the recent price trend plus the tone of gold news headlines (Fed, dollar, global markets, Egyptian market). Gold is hard to predict: treat this as a hint, not advice.',
+  history:'Price history',avgline:'90-day average',how:'How the signal works',
+  r1a:'Good time to buy',r1b:': 3%+ below the 90-day average.',r2a:'Fair price',r2b:': within ±3%. Buy your usual monthly amount.',
+  r3a:'Expensive, consider waiting',r3b:': 3%+ above the average.',r4:"Workmanship (المصنعية) and stamp fees aren't included, so compare shops.",
+  log:'Price log',date:'Date',egpg:'EGP / gram',note:'Note',egp:'EGP',noteTr:n=>n},
+ ar:{title:'لوحة شراء الذهب عيار 18',sub:d=>`مصر · جنيه للجرام · آخر تحديث ${d}`,loading:'مصر · جنيه للجرام · جارٍ التحميل…',loadfail:'تعذّر تحميل بيانات الأسعار',
+  latest:'آخر سعر لجرام عيار 18',avg90:'المتوسط (آخر 90 يومًا)',vsavg:'آخر سعر مقابل المتوسط',signal:'إشارة الشراء',
+  good:'وقت مناسب للشراء',fair:'سعر عادل',exp:'مرتفع، انتظر',
+  tomorrow:'توقع سعر الغد',forD:d=>'· ليوم '+d,est:'السعر المتوقع لجرام عيار 18',range:'النطاق المحتمل',tone:'اتجاه الأخبار (آخر يومين)',acc:'دقة التوقعات السابقة',
+  chg:(p,b,dir)=>`${p} مقارنة بـ ${b} (${dir})`,Up:'صعود',Down:'هبوط',Flat:'ثبات',
+  bull:'إيجابي ↑',bear:'سلبي ↓',mixed:'متباين',tone2:(u,d,n)=>`${u} صعود · ${d} هبوط · ${n} خبر`,
+  notyet:'لا يوجد بعد',builds:'تتراكم يومًا بعد يوم',avgerr:e=>`متوسط الخطأ ±${e}%`,inrange:(a,b)=>`${a} من ${b} أيام جاءت ضمن النطاق`,noest:'التوقع غير متاح بعد',
+  headlines:'الأخبار التي بُني عليها التوقع',
+  fcnote:'تقدير تقريبي مبني على اتجاه السعر مؤخرًا ونبرة عناوين أخبار الذهب (الفيدرالي الأمريكي، الدولار، الأسواق العالمية، السوق المصري). يصعب التنبؤ بسعر الذهب، فاعتبره مؤشرًا لا نصيحة.',
+  history:'تاريخ الأسعار',avgline:'متوسط 90 يومًا',how:'كيف تعمل الإشارة',
+  r1a:'وقت مناسب للشراء',r1b:': السعر أقل من متوسط 90 يومًا بـ 3% أو أكثر.',r2a:'سعر عادل',r2b:': في حدود ±3%. اشترِ كميتك الشهرية المعتادة.',
+  r3a:'مرتفع، يُفضّل الانتظار',r3b:': السعر أعلى من المتوسط بـ 3% أو أكثر.',r4:'المصنعية والدمغة غير محسوبة، لذا قارن بين المحلات.',
+  log:'سجل الأسعار',date:'التاريخ',egpg:'جنيه / جرام',note:'ملاحظة',egp:'جنيه',
+  noteTr:n=>n.replace(/^Market rate \(gold \$([\d,]+)\/oz x ([\d.]+) EGP\/USD\)$/,'سعر السوق (الأوقية $1 دولار × $2 جنيه للدولار)')
+   .replace(/^Shop sell price per gram.*$/,'سعر البيع في المحلات للجرام').replace(/^Price per gram today$/,'سعر الجرام اليوم').replace(/^Market rate per gram.*$/,'سعر السوق للجرام')}
+};
+let lang='en';try{lang=localStorage.getItem('lang')==='ar'?'ar':'en'}catch(e){}
+const $=id=>document.getElementById(id);
 const fmt=n=>Math.round(n).toLocaleString('en-US');
-let rows=[];
-const pricesP=d3.csv(DATA+'prices.csv?'+Date.now()).then(data=>{
+const DATA='data/';
+let rows=[],avg=null,last=null,fc=null,hist=null,failed=false,fcFailed=false;
+
+function render(){
+ const t=T[lang];
+ document.documentElement.lang=lang;document.documentElement.dir=lang==='ar'?'rtl':'ltr';
+ document.title=t.title;
+ $('b-en').className=lang==='en'?'on':'';$('b-ar').className=lang==='ar'?'on':'';
+ document.querySelectorAll('[data-t]').forEach(el=>el.textContent=t[el.dataset.t]);
+ $('updated').textContent=failed?t.loadfail:last?t.sub(last.date):t.loading;
+ if(last){
+  const diff=(last.v-avg)/avg*100;
+  $('now').textContent=fmt(last.v);$('avg').textContent=fmt(avg);
+  $('diff').textContent=(diff>0?'+':'')+diff.toFixed(1)+'%';
+  const s=$('sig');
+  if(diff<=-3){s.textContent=t.good;s.style.color='var(--ok)'}
+  else if(diff>=3){s.textContent=t.exp;s.style.color='var(--bad)'}
+  else{s.textContent=t.fair;s.style.color='var(--warn)'}
+  const tb=$('tb');tb.innerHTML='';
+  rows.slice().reverse().forEach(r=>{const tr=tb.insertRow();[r.date,fmt(r.v),t.noteTr(r.note||'')].forEach((x,i)=>{const td=tr.insertCell();td.textContent=x;if(i<2)td.className='num'})});
+  draw();
+ }
+ if(fc){
+  $('fc-date').textContent=t.forD(fc.target_date);
+  $('fc-est').textContent=fmt(fc.estimate);
+  const c=$('fc-chg');c.textContent=t.chg(`${fc.change_pct>0?'+':''}${fc.change_pct}%`,fmt(fc.base_price),t[fc.direction]||fc.direction);
+  c.style.color=fc.direction==='Up'?'var(--bad)':fc.direction==='Down'?'var(--ok)':'var(--muted)';
+  $('fc-range').textContent=`${fmt(fc.low)} – ${fmt(fc.high)}`;
+  $('fc-tone').textContent=fc.news_tone>0.15?t.bull:fc.news_tone<-0.15?t.bear:t.mixed;
+  $('fc-tone2').textContent=t.tone2(fc.news_up,fc.news_down,fc.news_total);
+  const ul=$('fc-news');ul.innerHTML='';
+  (fc.headlines||[]).forEach(h=>{const li=document.createElement('li');const a=document.createElement('a');a.href=h.link;a.target='_blank';a.rel='noopener';a.textContent=h.title;li.appendChild(a);li.append(h.s>0?' ↑':h.s<0?' ↓':'');ul.appendChild(li)});
+ } else if(fcFailed){$('fc-chg').textContent=t.noest}
+ if(hist&&rows.length){
+  const byDate=Object.fromEntries(rows.map(r=>[r.date,r.v]));
+  const ck=hist.filter(h=>byDate[h.target_date]);
+  if(!ck.length){$('fc-acc').textContent=t.notyet;$('fc-acc2').textContent=t.builds}
+  else{
+   const err=d3.mean(ck,h=>Math.abs(+h.estimate-byDate[h.target_date])/byDate[h.target_date]*100);
+   const inR=ck.filter(h=>byDate[h.target_date]>=+h.low&&byDate[h.target_date]<=+h.high).length;
+   $('fc-acc').textContent=t.avgerr(err.toFixed(1));$('fc-acc2').textContent=t.inrange(inR,ck.length);
+  }
+ }
+}
+function setLang(l){lang=l;try{localStorage.setItem('lang',l)}catch(e){}render()}
+$('b-en').onclick=()=>setLang('en');$('b-ar').onclick=()=>setLang('ar');
+
+d3.csv(DATA+'prices.csv?'+Date.now()).then(data=>{
  rows=data.map(r=>({date:r.date,d:new Date(r.date),v:+r.price_egp,note:r.note})).sort((a,b)=>a.d-b.d);
- const last=rows[rows.length-1];
+ last=rows[rows.length-1];
  const cutoff=new Date(last.d);cutoff.setDate(cutoff.getDate()-90);
  const recent=rows.filter(r=>r.d>=cutoff);
- const avg=d3.mean(recent.length>=3?recent:rows,r=>r.v);
- const diff=(last.v-avg)/avg*100;
- document.getElementById('updated').textContent=`Egypt · EGP per gram · last update ${last.date}`;
- document.getElementById('now').textContent=fmt(last.v);
- document.getElementById('avg').textContent=fmt(avg);
- document.getElementById('diff').textContent=(diff>0?'+':'')+diff.toFixed(1)+'%';
- const s=document.getElementById('sig');
- if(diff<=-3){s.textContent='Good time to buy';s.style.color='var(--ok)'}
- else if(diff>=3){s.textContent='Expensive, wait';s.style.color='var(--bad)'}
- else{s.textContent='Fair price';s.style.color='var(--warn)'}
- const tb=document.getElementById('tb');
- rows.slice().reverse().forEach(r=>{const tr=tb.insertRow();[r.date,fmt(r.v),r.note].forEach(t=>tr.insertCell().textContent=t)});
- draw(avg);
- window.addEventListener('resize',()=>draw(avg));
-}).catch(()=>document.getElementById('updated').textContent='Could not load price data');
+ avg=d3.mean(recent.length>=3?recent:rows,r=>r.v);
+ render();
+}).catch(()=>{failed=true;render()});
+fetch(DATA+'forecast.json?'+Date.now()).then(r=>r.json()).then(f=>{fc=f;render();return d3.csv(DATA+'forecasts.csv?'+Date.now())})
+ .then(h=>{hist=h;render()}).catch(()=>{fcFailed=!fc;render()});
+window.addEventListener('resize',()=>{if(rows.length)draw()});
+render();
 
-const $=id=>document.getElementById(id);
-fetch(DATA+'forecast.json?'+Date.now()).then(r=>r.json()).then(f=>{
- $('fc-date').textContent='· for '+f.target_date;
- $('fc-est').textContent=fmt(f.estimate);
- const c=$('fc-chg');c.textContent=`${f.change_pct>0?'+':''}${f.change_pct}% vs ${fmt(f.base_price)} (${f.direction})`;
- c.style.color=f.direction==='Up'?'var(--bad)':f.direction==='Down'?'var(--ok)':'var(--muted)';
- $('fc-range').textContent=`${fmt(f.low)} – ${fmt(f.high)}`;
- const t=$('fc-tone');t.textContent=f.news_tone>0.15?'Bullish ↑':f.news_tone<-0.15?'Bearish ↓':'Mixed';
- $('fc-tone2').textContent=`${f.news_up} up · ${f.news_down} down · ${f.news_total} headlines`;
- const ul=$('fc-news');(f.headlines||[]).forEach(h=>{const li=document.createElement('li');const a=document.createElement('a');a.href=h.link;a.target='_blank';a.rel='noopener';a.textContent=h.title;li.appendChild(a);li.append(h.s>0?' ↑':h.s<0?' ↓':'');ul.appendChild(li)});
- return Promise.all([d3.csv(DATA+'forecasts.csv?'+Date.now()),pricesP]).then(a=>a[0]);
-}).then(hist=>{
- if(!hist)return;
- const byDate=Object.fromEntries(rows.map(r=>[r.date,r.v]));
- const checked=hist.filter(h=>byDate[h.target_date]);
- if(!checked.length){$('fc-acc').textContent='Not yet';$('fc-acc2').textContent='Builds up day by day';return}
- const err=d3.mean(checked,h=>Math.abs(+h.estimate-byDate[h.target_date])/byDate[h.target_date]*100);
- const inR=checked.filter(h=>byDate[h.target_date]>=+h.low&&byDate[h.target_date]<=+h.high).length;
- $('fc-acc').textContent=`±${err.toFixed(1)}% avg error`;
- $('fc-acc2').textContent=`${inR} of ${checked.length} days landed in range`;
-}).catch(()=>{$('fc-est').textContent='—';$('fc-chg').textContent='Estimate not available yet'});
-
-function draw(avg){
- const c=document.getElementById('chart');c.innerHTML='';
+function draw(){
+ const t=T[lang];
+ const c=$('chart');c.innerHTML='';
  const W=Math.max(300,c.clientWidth),H=280,m={t:12,r:16,b:28,l:56};
  const x=d3.scaleTime().domain(d3.extent(rows,r=>r.d)).range([m.l,W-m.r]);
  const y=d3.scaleLinear().domain([d3.min(rows,r=>r.v)*0.95,d3.max(rows,r=>r.v)*1.03]).range([H-m.b,m.t]);
+ const loc=d3.timeFormatLocale(lang==='ar'?{dateTime:'%x %X',date:'%d/%m/%Y',time:'%H:%M',periods:['ص','م'],days:['الأحد','الاثنين','الثلاثاء','الأربعاء','الخميس','الجمعة','السبت'],shortDays:['أحد','اثنين','ثلاثاء','أربعاء','خميس','جمعة','سبت'],months:['يناير','فبراير','مارس','أبريل','مايو','يونيو','يوليو','أغسطس','سبتمبر','أكتوبر','نوفمبر','ديسمبر'],shortMonths:['يناير','فبراير','مارس','أبريل','مايو','يونيو','يوليو','أغسطس','سبتمبر','أكتوبر','نوفمبر','ديسمبر']}:{dateTime:'%x %X',date:'%m/%d/%Y',time:'%H:%M',periods:['AM','PM'],days:['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'],shortDays:['Sun','Mon','Tue','Wed','Thu','Fri','Sat'],months:['January','February','March','April','May','June','July','August','September','October','November','December'],shortMonths:['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']});
  const svg=d3.select(c).append('svg').attr('width','100%').attr('viewBox',`0 0 ${W} ${H}`);
- svg.append('g').attr('class','axis').attr('transform',`translate(0,${H-m.b})`).call(d3.axisBottom(x).ticks(Math.min(6,W/90)).tickFormat(d3.timeFormat('%b %y')));
+ svg.append('g').attr('class','axis').attr('transform',`translate(0,${H-m.b})`).call(d3.axisBottom(x).ticks(Math.min(6,W/90)).tickFormat(loc.format('%b %y')));
  svg.append('g').attr('class','axis').attr('transform',`translate(${m.l},0)`).call(d3.axisLeft(y).ticks(5).tickFormat(d3.format(',')));
  svg.append('line').attr('x1',m.l).attr('x2',W-m.r).attr('y1',y(avg)).attr('y2',y(avg)).attr('stroke','var(--muted)').attr('stroke-dasharray','4 4');
- svg.append('text').attr('x',W-m.r).attr('y',y(avg)-6).attr('text-anchor','end').attr('font-size',11).attr('fill','var(--muted)').text('90-day average');
+ svg.append('text').attr('x',W-m.r).attr('y',y(avg)-6).attr('text-anchor','end').attr('font-size',11).attr('fill','var(--muted)').text(t.avgline);
  svg.append('path').datum(rows).attr('fill','none').attr('stroke','var(--gold)').attr('stroke-width',2.5).attr('d',d3.line().x(r=>x(r.d)).y(r=>y(r.v)));
- const tip=document.getElementById('tip');
+ const tip=$('tip');
  svg.selectAll('circle').data(rows).join('circle').attr('cx',r=>x(r.d)).attr('cy',r=>y(r.v)).attr('r',rows.length>60?2.5:5).attr('fill','var(--gold)')
-  .on('mousemove',(e,r)=>{const b=c.getBoundingClientRect();tip.style.display='block';tip.textContent=`${r.date}: ${fmt(r.v)} EGP`;let lx=e.clientX-b.left+12;if(lx>W-150)lx-=170;tip.style.left=lx+'px';tip.style.top=(e.clientY-b.top+44)+'px'})
+  .on('mousemove',(e,r)=>{const b=c.getBoundingClientRect();tip.style.display='block';tip.textContent=`${r.date}: ${fmt(r.v)} ${t.egp}`;let lx=e.clientX-b.left+12;if(lx>W-150)lx-=170;tip.style.left=lx+'px';tip.style.right='auto';tip.style.top=(e.clientY-b.top+44)+'px'})
   .on('mouseleave',()=>tip.style.display='none');
 }
 </script>
