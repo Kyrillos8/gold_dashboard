@@ -1,23 +1,23 @@
 {
- "generated": "2026-11-23T21:28+02:00",
- "base_date": "2026-11-23",
- "base_price": 4773,
- "target_date": "2026-11-24",
- "estimate": 4759,
- "low": 4665,
- "high": 4853,
- "change_pct": -0.29,
- "direction": "Down",
- "trend_pct_per_day": -0.12,
- "news_tone": -0.38,
- "news_up": 4,
- "news_down": 9,
+ "generated": "2026-11-24T21:05+02:00",
+ "base_date": "2026-11-24",
+ "base_price": 4659,
+ "target_date": "2026-11-25",
+ "estimate": 4658,
+ "low": 4565,
+ "high": 4751,
+ "change_pct": -0.02,
+ "direction": "Flat",
+ "trend_pct_per_day": -0.18,
+ "news_tone": 0.11,
+ "news_up": 5,
+ "news_down": 4,
  "news_total": 40,
  "headlines": [
   {
-   "title": "Gold Rebounds After Sharpest Weekly Decline Since March - WSJ",
-   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQQ1lDUDJKYnppMTFtNDdCYUoyWkVjdTBJYWpOaWY3OHFRUTMxT0VSUTR0UWN4SEFQVVZJUlhqNjU4OFlDeXdHZkh4ZUFFSTNzWXhEcWpRQ0h0eVk3Q1ZmU2I5OURqdnhEc1hlQmRDcGVVLXZ5YW8yTWQ4dWYwRHE4V0dLTGZhd0p2S3A1V0l6MUs4M3RXaFh0TlJDZUdQYkdPRWNoclFEMl9sY2JTQzNZcDJn?oc=5",
-   "s": -1
+   "title": "Gold (XAU/USD) Price Forecast: Bullish Reversal Targets $3,900 Resistance - FXEmpire",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNWHQwWnIxQVBoNEN4MDNUdDhrWXZTUUpVN2t5UmlIWTdTMktLMmk2eTNzMnF1RmdRRzZoYkdOMTVCa01XOGZpWnlHSWYzZHdPdFhvU2czUHRpdll5Wm1RSEc0dXB6aWRJUlpwZ05Zb0ctV1hLb0UtenZPMUV0SFlUYVZpRXlLQ0VRbTloZXUxd3lMUEZWcWFJN3BTX1kyalRfcWh0OTRhRExvcFp0ZnpPMEhZd0VhdGhPWVFF?oc=5",
+   "s": 1
   },
   {
    "title": "Gold price rallies above $3,600 as AI selloff reshapes Fed outlook - Kitco AM Report - Kitco",
@@ -25,18 +25,8 @@
    "s": -1
   },
   {
-   "title": "Gold and Silver Jumped, but the Dollar Barely Moved. Here's Why - GoldSilver",
-   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPck5tdldxWWM1RWhsamtOQU9jbVVCbUJ1VjgxYWpiYmNXSkRCaFFhRWVLZDF1VmhxcGY3UTJ1WXlKRXhURElpQlVZY3hMVEV1MW44Ym9RbFVNSlNzRUprT1FBNEc0YnRoekwxMlFFR0ZXS2t5eFRZYTg0R2tyc1JReWoxbVBBTmZiUHczNzdkbw?oc=5",
-   "s": 1
-  },
-  {
-   "title": "Gold Price Prediction: XAU/USD Reclaims $3,600, But Is This Just a Relief Rally? - Cryptonews.net",
-   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9laERjdWFEWjh5WGMwVFhlRlBMakZBMEU5WFdPb3BZMWVidE5rbTI4b2xINy1wV2dJZzVPUk1iSk14cUl4Q0hqTUdseC1Pd0wyWWUyQWtWa0VyR1U?oc=5",
-   "s": 1
-  },
-  {
-   "title": "Gold Price Prediction: XAU/USD Reclaims $3,600, But Is This Just a Relief Rally? - CoinGape",
-   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZlJINWQ5bEllUEVkTzYzVFB6bFZFQ01LY0NKR0tvZktNVXFDNWR4OFl4Y1lCS3JnS25sY3cyRDdUbjBQR25XVDR2Wmo5RXpMMnVHTFFFWXozanRxaVZZM0lKV1R0Xzk3MzVMUlU4Q1BTRlRNYmVJN2dWNFpTM2pqRXBDeThVWmVXRnhPV2s5emtOSm9wcUZhQ1hBcU40MW9qM21qRGtOZnY?oc=5",
+   "title": "Gold (XAUUSD) & Silver Price Forecast: Gold Extends Rebound as Bargain Hunters Return, Can $3,595 Hold? - FXEmpire",
+   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPMlA2WnpTN0N0UVRUa2dlRVVRMDdkUE1FRmdFekQ5ZDlkQU1Odl9OR0ZkeGlYUVlYcVhHeTMwTjVsbU9XRU9pRWhTVmlTUm5EM1BKZDhya2YydU5RZldVSXRXTVFDSWgwcmJQeUZKWC1lbGFKSE13aFRkaS1ud24zRjBKVnlwQ3JtNzZ3ZzBENTNOa0RpYXR1aWNhVUc3S3ktY0o4N2N0TkdFczVTXzdMUzJ0djFuR3lrUkRya2F5cnNpaVBoQzlub1Vpc1l4TkFFME51QlBCY3dITEpDVGc?oc=5",
    "s": 1
   },
   {
@@ -45,14 +35,24 @@
    "s": -1
   },
   {
+   "title": "Silver Price Forecast: Does weak momentum leave prices vulnerable to further declines? - www.tmgm.com",
+   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNRlREVXkxM0tXUmRwNlZPS2hoQUd1dzZ2bW0wVHNFUkFjeVUyMVlnaFdaVldIbW9Vb3pCaFllNF9RaFZMbExTTG96alZEckNPQWc0ZUVsUnJ0NXhxU2FIZGFneWtiRE94dmo3ZWdyODhpMGFacnI3X1NuUnlKTUNDTTBRaTJaQ3IwODFrNHhqUzdNcGNQbkRLRzNqR2UyMTZDRUFzUFZXMDY0TS1xRFNhVVNITXIybUU4OXNPUTRseUpjbnhad3EtRWtWMA?oc=5",
+   "s": -1
+  },
+  {
    "title": "Gold Weekly Price Forecast: PCE Inflation Tests Rebound After 9% Drop - FXEmpire",
    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPcXlMY29MRndOZDhSZGNXRVVBbWZxUXhTOG9QYWpEaHRUdVVaR3VkQmRsYXdfZzlOa1pwZ0s2bXRUaFVmRDVNMGh3QjNEN3dVVkU4WllmLVZDcWxFYndzdjE2eUotaDkwNlhjOHd2REVRcEhyQWpUZXNGaFJDb3VpcnR3SXFTNzV0c05LVGh3bFEwNS0zZm11UVV2LXAzNzB1ZjN0OENCU0RwYjlITlItNWdjcUpRb1NjRGc?oc=5",
    "s": -1
   },
   {
-   "title": "Gold (XAU/USD) Price Forecast: Deepening Selloff Nears Major Support - FXEmpire",
-   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPOEZjQ2ZoWURweVpkOHVUUk92cmlKM2lyeXV2ZFdma2tjemIwYU54Q1hxQ2p2ODlxOTdjMGQtUGJrNWdJYzc5OTZrWk1XZnJIblB0U2d2TjdmaS1uSGREVVNHY2JpQTQzS2RPNEVQdU9WZ0VHc1VrLWVZa0hlazlBUlZDSUhPX0RLQjRjYVdaLW9WajQ5MkwtLXRrcUhJQTBBNlFrSTlSUXlPU0dLbGRZYWVtMTBuRzQ?oc=5",
-   "s": -1
+   "title": "Gold and Silver Jumped, but the Dollar Barely Moved. Here's Why - GoldSilver",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPck5tdldxWWM1RWhsamtOQU9jbVVCbUJ1VjgxYWpiYmNXSkRCaFFhRWVLZDF1VmhxcGY3UTJ1WXlKRXhURElpQlVZY3hMVEV1MW44Ym9RbFVNSlNzRUprT1FBNEc0YnRoekwxMlFFR0ZXS2t5eFRZYTg0R2tyc1JReWoxbVBBTmZiUHczNzdkbw?oc=5",
+   "s": 1
+  },
+  {
+   "title": "Gold Price Prediction: XAU/USD Reclaims $3,600, But Is This Just a Relief Rally? - CoinGape",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZlJINWQ5bEllUEVkTzYzVFB6bFZFQ01LY0NKR0tvZktNVXFDNWR4OFl4Y1lCS3JnS25sY3cyRDdUbjBQR25XVDR2Wmo5RXpMMnVHTFFFWXozanRxaVZZM0lKV1R0Xzk3MzVMUlU4Q1BTRlRNYmVJN2dWNFpTM2pqRXBDeThVWmVXRnhPV2s5emtOSm9wcUZhQ1hBcU40MW9qM21qRGtOZnY?oc=5",
+   "s": 1
   }
  ]
 }
