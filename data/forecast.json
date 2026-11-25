@@ -1,58 +1,58 @@
 {
- "generated": "2026-11-24T21:05+02:00",
- "base_date": "2026-11-24",
- "base_price": 4659,
- "target_date": "2026-11-25",
- "estimate": 4658,
- "low": 4565,
- "high": 4751,
- "change_pct": -0.02,
- "direction": "Flat",
- "trend_pct_per_day": -0.18,
- "news_tone": 0.11,
- "news_up": 5,
- "news_down": 4,
+ "generated": "2026-11-25T20:10+02:00",
+ "base_date": "2026-11-25",
+ "base_price": 4606,
+ "target_date": "2026-11-26",
+ "estimate": 4573,
+ "low": 4483,
+ "high": 4662,
+ "change_pct": -0.72,
+ "direction": "Down",
+ "trend_pct_per_day": -0.75,
+ "news_tone": -0.57,
+ "news_up": 3,
+ "news_down": 11,
  "news_total": 40,
  "headlines": [
   {
-   "title": "Gold (XAU/USD) Price Forecast: Bullish Reversal Targets $3,900 Resistance - FXEmpire",
-   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNWHQwWnIxQVBoNEN4MDNUdDhrWXZTUUpVN2t5UmlIWTdTMktLMmk2eTNzMnF1RmdRRzZoYkdOMTVCa01XOGZpWnlHSWYzZHdPdFhvU2czUHRpdll5Wm1RSEc0dXB6aWRJUlpwZ05Zb0ctV1hLb0UtenZPMUV0SFlUYVZpRXlLQ0VRbTloZXUxd3lMUEZWcWFJN3BTX1kyalRfcWh0OTRhRExvcFp0ZnpPMEhZd0VhdGhPWVFF?oc=5",
-   "s": 1
+   "title": "Gold Price Forecast: Rallies Remain Vulnerable Despite Falling Yields - FXEmpire",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQT0phQWhhb3lzbHhaOUhJaU0yMTVodkxnN3hpNU9UY1ltMFhsSXpMRUVUZm1Ua1pGLWZyb3h0bjl2ZnVNYUQ5THozUlU3YTlId2psaTc0UW41dHRWdkd5NHBBaFBzQ2g0Rnh4dVdkZk5CYkhkV0NrZDJ2X2RoUVZra05GYUhCaDdpaUk4Smt4MW8tNlBJYk5fSURGcVhRNGw3TWVVcHJ1aWxGYldxd2xucXN6Q0loQXlYcWs0?oc=5",
+   "s": -2
   },
   {
-   "title": "Gold price rallies above $3,600 as AI selloff reshapes Fed outlook - Kitco AM Report - Kitco",
-   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPenF6LTV0TWdncXg5WDBQNS1Dc2lSVEUwNmpsRzR0UGg4a0VOM21NN2hTNnN1Mk1fZDhmcWs1WU41UW9qcUFieEJnemYyRTdhZy1hakhLbHRXemltSTFVTnBFaEhLdDR5LTYyeElnTjBKdEVNeUFXRnFEQlh5bWllNU1vOEw3eHlaRXZBZzV1WlNXUWd6R3BHdmlTajdyZUJueU5vNTlCUmhvclZtLVRlamJyel9USGM?oc=5",
+   "title": "Gold price today, Wednesday, November 25, 2026: Gold prices fall as inflation data and potential new tariffs loom - Yahoo Finance",
+   "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxPb3dFeUN5SkJCNHNoN2FGTDYzdHNOcXJtS0NVRlBDWUJtOFNiMndWMXBHNHJ0SHFRbm1ORkdDTUtBVEQ4ZUJlRC1QeU5xZ2VPVHVNTVNMa3E2SHpheU5XSGY0YVJEcS1OSmpKM21nTGx4QS1zVUxKWHVNeFd4Wko5NUltTHNTQTU2am1tRjZkX3dGTUttQ09DcUJaYmloUXExakZRUnFCVURWUy1sbENFdXFubllDSXVvZVgtVk5WejVKQzVZY1Nvbkx5N2hxNzhhelVheFlVTUFzNkJhMV9ISm9sR3cxanB0RXhlRGVyNmswd09EOXZuVU5kR3hJVXV4Vk9Wal9ReWY4M29mTGR1bHdhbw?oc=5",
    "s": -1
   },
   {
-   "title": "Gold (XAUUSD) & Silver Price Forecast: Gold Extends Rebound as Bargain Hunters Return, Can $3,595 Hold? - FXEmpire",
-   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPMlA2WnpTN0N0UVRUa2dlRVVRMDdkUE1FRmdFekQ5ZDlkQU1Odl9OR0ZkeGlYUVlYcVhHeTMwTjVsbU9XRU9pRWhTVmlTUm5EM1BKZDhya2YydU5RZldVSXRXTVFDSWgwcmJQeUZKWC1lbGFKSE13aFRkaS1ud24zRjBKVnlwQ3JtNzZ3ZzBENTNOa0RpYXR1aWNhVUc3S3ktY0o4N2N0TkdFczVTXzdMUzJ0djFuR3lrUkRya2F5cnNpaVBoQzlub1Vpc1l4TkFFME51QlBCY3dITEpDVGc?oc=5",
-   "s": 1
-  },
-  {
-   "title": "Gold Price Forecast: Selloff Echoes 2022 as Fed Hike Fears Grow - FXEmpire",
-   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNeldGOUZfc0ZTLUtjTkpuLUN3c2lpYnB1SEIwRS1aVnZ2bGNQQndUblBPdG5yZ0NIZDZLMGNxWFRYSDdEaWNXZGVLUmhMWnRWWVoxYVJJck9qZkFaRVB0VzRMajA4Slk1Z2lsVWdOQTZfWmlFbFRFXzY0NndkVUJfaHIxeERYT0IxaDJGRmI4M20zdWRyQXZxcUxsS0w0MGJzYzE2UzF6U096eUROM1ZJRjl1MA?oc=5",
+   "title": "Gold Holds Decline as US Tariff Plans Reinforce Rate-Hike Bets - Bloomberg.com",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxORkQxbTNiWEs3QmZBV1ZoVV9Nb1kyM1dUSmRYT2RWYkQ0eTV6cktjakV3OXRjalVYSkJ2Q2FBdFhUbHl6V3VBTHFzbGJFU1RacTRrUGxFWHU2Y0R3OXZKXzlaQUVPc3Z3TjJ1MkRnVGNwMlpHYzhwbVkwRTFLbVc0ZTkxa3ExQU1iYTcxU3Q4czZTVVhDRE9iYTFCak1aZ3BnQ1ZGbldMSGdaQ2szYXNQX1FJTQ?oc=5",
    "s": -1
   },
   {
-   "title": "Silver Price Forecast: Does weak momentum leave prices vulnerable to further declines? - www.tmgm.com",
-   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNRlREVXkxM0tXUmRwNlZPS2hoQUd1dzZ2bW0wVHNFUkFjeVUyMVlnaFdaVldIbW9Vb3pCaFllNF9RaFZMbExTTG96alZEckNPQWc0ZUVsUnJ0NXhxU2FIZGFneWtiRE94dmo3ZWdyODhpMGFacnI3X1NuUnlKTUNDTTBRaTJaQ3IwODFrNHhqUzdNcGNQbkRLRzNqR2UyMTZDRUFzUFZXMDY0TS1xRFNhVVNITXIybUU4OXNPUTRseUpjbnhad3EtRWtWMA?oc=5",
+   "title": "Gold price prediction today: Is there any end to gold price fall? Check November 25, 2026 outlook - The Times of India",
+   "link": "https://news.google.com/rss/articles/CBMi5AJBVV95cUxOLTMwT2EtMWJQMWZ2NlpvQm9xaTRiNHBzNENZVEtKYkduYzI4VEhDQnJZTERxcUNGTUFUZFpWMWpQdzlHNUl0QlVtZEg3RHFwZnBxUU9vdXdjRURXMjVKSTRGem1vaUxHZXl4aXB0YV9RRk5iMUhHSTFLVWFoWHphSmcyaVdQZHU1TENZd3pSaS13OERNMDY2aDI0akdyR1JoSVVHdUFPN19fVkd4bjVtMExpNlE5WXIydnhyN0QzdF9TN2Z0TWlxV2ItejdLUTNuZHRJUTNWeWNWZXNXNlBza2tOWW0yUlpiUUlYMVllYkt0UWdkNzhjNzNuZHBORHphQzlHZDZiMGgwR1RJZDl5blVjQ0I5RG9EeGNUaUlweDZMaWl6dHlUZENLZUlTSlRBc3F2R0tfYTFrdVVJc05DUjNxVC0wcEgxNm1uOVNSVGJyalpuS0Q0b3BWT2IyU29JWVV3adIB6gJBVV95cUxOUm9yREFPLUZURDFoTVEtZ0UwTHAzTmVuTkNZdU9ZdjZnVUpzRnI0U1YzT0d4d3ZKY05XbGZaT1J3T2I1UGRlbXV2cHFIZE1uQ3RaNEpmWC1pWnRpX0t1LWZpNW8tQnZudlIwa3NZeHFyTW4tNXFSX1N5S0huYm1NeHluSElGdTdTZjF0em5vSWEwMl9VTWpITlZ6QUtfNy11Qkp0NzBWVFg4Nm9WazZKN2JQZ3RIVnRJeVpyemV1TFF5VmJGc2FpQXF4NzBfRW5VT0tlelMzQWFUU3lpMUM4MFFkMzdfX3FaRmdtdXNsWHlral9oWWJ4ck9oZDZvZUZ6bVR2VHg2LUFFM2N1cTlwTUhITW1kQi1fbEZtY05IYjhWV1NUODlwLTZfSmRPWGNZeXVtbW1pWVhjb2cyWGVNbnFfTmxFakswWmV3eXVGOGFtSjlyLXA3SnhEQWk0M1hFb2ltN2F6Q3RWdw?oc=5",
    "s": -1
   },
   {
-   "title": "Gold Weekly Price Forecast: PCE Inflation Tests Rebound After 9% Drop - FXEmpire",
-   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPcXlMY29MRndOZDhSZGNXRVVBbWZxUXhTOG9QYWpEaHRUdVVaR3VkQmRsYXdfZzlOa1pwZ0s2bXRUaFVmRDVNMGh3QjNEN3dVVkU4WllmLVZDcWxFYndzdjE2eUotaDkwNlhjOHd2REVRcEhyQWpUZXNGaFJDb3VpcnR3SXFTNzV0c05LVGh3bFEwNS0zZm11UVV2LXAzNzB1ZjN0OENCU0RwYjlITlItNWdjcUpRb1NjRGc?oc=5",
+   "title": "Gold drops below $3,500; prediction markets price moderate year-end targets (XAUUSD:CUR:Commodity) - Seeking Alpha",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPWjFtWGJ0TlhlN3FCQzlFRkxUeURkNUE5OGNOdHBZT21aNGVpS2lscFVONFJWUDFYU3BjWm1ITjNNNV9yYXg5bUtWMDBJai1ibFZqaHV0eXlPRnVDSVEzRm1FRDU4SEY2eldMNnd6WjFiTGUxbDlWM3pGMlg3aVFvZ21mRlVDUmJaaEllTFpndnBPbFdkWDd4ZDRnQm4ycTBBYXBPZk05R3lrOTR1TlJZ?oc=5",
+   "s": -2
+  },
+  {
+   "title": "Gold rate outlook for November 26: MCX gold drops 1.29%; will prices fall further or recover on Thursday? - Livemint",
+   "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNNk84NmNwZGlVaVl5M1N2Q2pxY3lnTDVMQXpyWmZhNzRJdWVsVE1KWkQ4WFlZM0dneFcyd1lJbnRFNUJwZHduVkNmRFhOTUpVaC10a0JnX3dETEVfVkRfZEVqN0hwVHQxa0xsZkRYaE5PTGVLWGR2OXo2OXVSdjItNGZSNmhUa3BOS1hQRDRHeVR3S0p5SkdsRkVhalhZUkw2R1ZEaTBlTmVNQXZ6RFBYaGM1a25jSGloMkM4WnVsQ3k3em82d3pMaXdpT25GakluYXNkQXI3ZGZVZFpxUml2dzhvV3dpRGd2UHJ1QmlhLVlRS2JLS0FMVURuZXlRUdIBgwJBVV95cUxObGRqNlptQUxmYWpiNHY1M3hHMzFUZy1Jbkp3NTZvUmpKNURaM3R3V0FucTRSTGV0TlRhYlUtSWRWVDdOZmp3WTRFTzhOSU5oZG5YaFo3SEdCLVU3V1l2eHNlY3FLYmdvbmsxWjRwY3FPMnhCVDhuM3hmOFhHM3AzbC1vWUlFSTR2ZWxkRWxXNWE2akRhMGc5V3BqWHRwT3d2WUdwME1CdkdqNzU5VHdpMzh2bFhMVGNBdFRZUFQ5WVFwRXdYOWUyUWlIUUd5bWpPaC1EZWxZWFltcmFXblVTR1RJSWNZaUg2RkxtQ1VZbE1qNDhWbHRyRVVualFGSDQyWDVn?oc=5",
+   "s": -3
+  },
+  {
+   "title": "Gold and Silver Price Forecast: AI Selloff Puts Key Support at Risk - FXEmpire",
+   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOaVJxdG9oSzBDS2piZDRFdkZQVmo2RWJ2d2kyc3F0aVJvWUg1U2xUdVc0LXJuMW1oaWV3ZGlzRHhZZDM0Y2RGbWRvYVN6RnY4b3FEOXFxdnVDcWtpUnpYbGkzclplZHI2RlBDT3FxcENoU0drcGU0QTE1T0Rpd2VzTUpCenRURjIyaFlaVGJWQTNMQUdkOExMc2ZBR1lUaXR0ekhBbmZPR1hXZTNNYjFsaFZIc0JfT29V?oc=5",
    "s": -1
   },
   {
-   "title": "Gold and Silver Jumped, but the Dollar Barely Moved. Here's Why - GoldSilver",
-   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPck5tdldxWWM1RWhsamtOQU9jbVVCbUJ1VjgxYWpiYmNXSkRCaFFhRWVLZDF1VmhxcGY3UTJ1WXlKRXhURElpQlVZY3hMVEV1MW44Ym9RbFVNSlNzRUprT1FBNEc0YnRoekwxMlFFR0ZXS2t5eFRZYTg0R2tyc1JReWoxbVBBTmZiUHczNzdkbw?oc=5",
-   "s": 1
-  },
-  {
-   "title": "Gold Price Prediction: XAU/USD Reclaims $3,600, But Is This Just a Relief Rally? - CoinGape",
-   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZlJINWQ5bEllUEVkTzYzVFB6bFZFQ01LY0NKR0tvZktNVXFDNWR4OFl4Y1lCS3JnS25sY3cyRDdUbjBQR25XVDR2Wmo5RXpMMnVHTFFFWXozanRxaVZZM0lKV1R0Xzk3MzVMUlU4Q1BTRlRNYmVJN2dWNFpTM2pqRXBDeThVWmVXRnhPV2s5emtOSm9wcUZhQ1hBcU40MW9qM21qRGtOZnY?oc=5",
-   "s": 1
+   "title": "PCE Inflation Rises to 3.8% as Stocks, Gold and Silver Weaken - FXEmpire",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPdmlzQWFUTkt4SXk0RTNNSzdudnc0X0stelRZTVhSZ0Y0SFRpLVJDU1h4TUJuOHpDWVYySUx0ZzhxWi1ITHFEdXpfRjk5c09UaXpySXhDT3ljT2g1SXU2RGtsb2pFblVJOVpFNENHNUFiekFURFpic0RmRUJCREltcUsxM1Jtcmp6eWpTVzJQaDBxM1pReDdtUFZ4UnBvQ1ZYUXlhcTlBaHlxd3BfV2lZ?oc=5",
+   "s": 2
   }
  ]
 }
