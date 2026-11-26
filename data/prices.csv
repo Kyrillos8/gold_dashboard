@@ -15,3 +15,4 @@ date,price_egp,note,source
 2026-11-23,4773,"Market rate (gold $3,654/oz x 54.17 EGP/USD)",gold-api.com + open.er-api.com
 2026-11-24,4659,"Market rate (gold $3,556/oz x 54.33 EGP/USD)",gold-api.com + open.er-api.com
 2026-11-25,4606,"Market rate (gold $3,522/oz x 54.23 EGP/USD)",gold-api.com + open.er-api.com
+2026-11-26,4701,"Market rate (gold $3,566/oz x 54.66 EGP/USD)",gold-api.com + open.er-api.com
