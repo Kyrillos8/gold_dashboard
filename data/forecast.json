@@ -1,38 +1,28 @@
 {
- "generated": "2026-11-27T19:39+02:00",
- "base_date": "2026-11-27",
- "base_price": 4807,
- "target_date": "2026-11-28",
- "estimate": 4807,
- "low": 4711,
- "high": 4902,
- "change_pct": -0.0,
- "direction": "Flat",
- "trend_pct_per_day": 0.65,
- "news_tone": -0.54,
- "news_up": 3,
- "news_down": 10,
+ "generated": "2026-11-28T18:24+02:00",
+ "base_date": "2026-11-28",
+ "base_price": 4825,
+ "target_date": "2026-11-29",
+ "estimate": 4843,
+ "low": 4749,
+ "high": 4936,
+ "change_pct": 0.36,
+ "direction": "Up",
+ "trend_pct_per_day": 0.73,
+ "news_tone": 0.0,
+ "news_up": 6,
+ "news_down": 6,
  "news_total": 40,
  "headlines": [
-  {
-   "title": "Gold and Silver Price Forecast: Silver Leads Rebound as Ratio Falls - FXEmpire",
-   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNbTNvNmdrVlhUYXQtcFBkNTlSSEFMQjNfRkl1STktMTE4VDBiXzJIY0U1RTBCZFBCNGhlbmVScG1vM2FSR25ld05RejhzeDVkOTNyb05fT1Q3S1ljZ2UzeE1XMk1FWU5ldGwxSng4VVVocXctRjk1R0NMTlRqbEdqZE1PQUR5MkZ3UGNGZzFFaXJPd00tMEIxdkM5Z0NabVlkZE13SGdNLS1qMy1OdDNjMnlSeElUQ0xL?oc=5",
-   "s": -2
-  },
-  {
-   "title": "Gold price forecast: Fed rate hike in December may limit recovery to ₹1.30 lakh per 10 grams by 2026-end, says expert - Livemint",
-   "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNSS1wSFJjclpDQzhXOXBYY2R0UTMxLTNVemdRRlAxaF9SME9weWNvQks3a0dhTER3Y1dMd25XX1AxMXlkOWZscV9HQlctUFV0bjJubzNvTDIwX1JjaG4wOFk0aDNQRDMwQVNzSXVvU0xNZDBrYlZqUlhyeHB4SzJoLXAxakc2dDg4MEFlX0RsUkhTWFhha21fUkZJdUNNZGpuUWptVFpQUHdxb19Nd3ZWdl9Sb2VvQUZBWk5jY2xVbVhQRDBqSlhXNHVFZkdydDNJTEZldkstWUtWSGN5Skl6RGlkR0NNV2Q2MzE5Z1hONnhRM0hfX28wSEJMTmFDczlsakJFRzdTc21TX3FxRERN0gGUAkFVX3lxTE1FVVNONG9GZlJqSVBzaEJWcXo2bFhBSFc4WEUyLWszZlhSeS1YSTlTYm9WUEZrbEtXVTlxcnVNOUtXd2lab2ZLdm1RTGxDWkNCX1RpMWFGeGp5ejlXRjJ3VV9yS1VJcmlvdlRjSVc1S0c3MVdDYnByNW11WFhDdlNfZVlMbHpGVU9sajJOdkZUWXRiLUotd3llMF9QNDhmNTRfYWpBTGxSYXBjT3U5endNTlFBeERELTlmcjg5TFUybWdjZjJyZE1sbmJtd1J5WUFzSFIyYk9wLWVBZU43dWpCeEJoTEo0M0U0V0U5SXFKSmxhRGJ6M3l0cXhrN2dpWjM5X3ZGZi1DVndaUUZVQV9YeXZxYw?oc=5",
-   "s": -1
-  },
-  {
-   "title": "Gold drifts lower as Fed rate-hike fears loom - Reuters",
-   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNczNWcXJNQVFwUEZ5UjlTc1o0ZFE5NVFYZzA2eTJURHRsMmRMRmc1LTZ1TWszbFYyN05QRHRiQ1VIb1ZxUE9pTUs5WDVya1M0WFJEQ3lCN3J0T3h4bndfa1NyZFB4VFFaby1NWVdRRlFZeGlKdDNnYkRZN0c0eFZQY3VSWS11NW9SbUdndElMZk9oNk1kd0haVWh0Rl9VcTA1MDg1REE1cHZXWk14Umc?oc=5",
-   "s": -1
-  },
   {
    "title": "Gold will reach $4,600/oz by Q4 2027 as rates fall, USD gives back 10% overvaluation – J.P. Morgan’s Tang - Kitco",
    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOVEtiN2lYeXFnN29IbVhUQU9ZV0hBWk9ZcWFxTmxucEllczlFYWp3RGlQZ0VwbXFtWklNWGZfc3BFX0djdGFCc2xVWkxOQ21CdGphc09idHpMX0szZ2tjWGoxTzBZTThFMzdyOXFrUFVxTzhfSUZsVkZsX3Y0U0szQk1aZm1qMXVaaU8xc01ZVGJKVW5GNC1FeldJYVplR3Z3RFlwLWdyenplYU1VdjZUT3NycHNIUm9wOWpz?oc=5",
    "s": -1
+  },
+  {
+   "title": "Gold and Silver Price Forecast: Silver Leads Rebound as Ratio Falls - FXEmpire",
+   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNbTNvNmdrVlhUYXQtcFBkNTlSSEFMQjNfRkl1STktMTE4VDBiXzJIY0U1RTBCZFBCNGhlbmVScG1vM2FSR25ld05RejhzeDVkOTNyb05fT1Q3S1ljZ2UzeE1XMk1FWU5ldGwxSng4VVVocXctRjk1R0NMTlRqbEdqZE1PQUR5MkZ3UGNGZzFFaXJPd00tMEIxdkM5Z0NabVlkZE13SGdNLS1qMy1OdDNjMnlSeElUQ0xL?oc=5",
+   "s": -2
   },
   {
    "title": "Gold price forecast: Can the rebound gain traction? - FXStreet",
@@ -40,18 +30,28 @@
    "s": 1
   },
   {
+   "title": "Gold rally puzzles investors: Prices rise despite stronger dollar and higher yields; expert sees ₹1.50 lakh in one year - Livemint",
+   "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQOHMzMTkxTkRKdTNTRGVGS21zcnhLSkp2Y3RvVjg4NXZESjVVUEkyeHZfOVVaRDRURC1Pb2cxa3dnMXNBd3RmV0pwU3BXM2twdFo2c0t0aG03NnMwRHlremhZYWl2UjNWeVMwM0Q3aXRtclU5ME1SNmRQalpTOGZZZVN2RXRCaWF3S2pqX1ExREFxSU5sN1VqdVpSb1F5NExLWlVXNDlrTDRKcGpqY2JNNDE0U3FwS0M1ejhmd1FicWVMelBRSHFHdFVnVGlDd2poalQ5cGk0UVQxd1doR255VG5lZ0ctT0hQSERBSGhhXzJtdV9UREFKR1E2ZkRhXy1FY0wzYzdNaHdwTTFESElKdkV30gGXAkFVX3lxTE55RVpLcmNWVFhaSE5qdG5la2EwR2hxSmxZWkdXcmtySmg5VTVSdXZheERaeklHVGJrYzNPSXBQRFBqLWVJd2FMY05Ma3hKaEhXVGtCM3RvbG1NS09rYzdUOWk2aFJ2LXFpTmNSdEJzbmhsVUpKZ2JLb3F1VTdqdjZ4bmhOT0h5WWR1S2NycXdQYmNWRVdQMEpzeWgyTFN3VXZuYnlSQlFNSDRFM2J2bWV4WkdaU2diX3dib1VTWXc2eW1tZ29KQ1BUMzhYUlRDQmdTWHZuOEFnWk44TUdXdm9pUHdibmRNVEM1YTFKR3BhbDZvc1JiVXBGU2pEYzBfaF9vSDZ5SmxJX2VabzhkTUI5WmJoNDFPMA?oc=5",
+   "s": 2
+  },
+  {
+   "title": "Gold forecast: XAU/USD steadies as the dollar rally runs out of steam - StoneX",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQaHhxMVhVRXJyNlJHcWh4bXJDWmFiS09ERG5vNEFaOVY1RWFvelV4YVg4Y3BkSDVISjNza0hzMmR0YldNZHlOVlQ4NXl3Q1dRSk96cWJkQ2o4X3JTdWZQcDVWNndKZFVQbm9aV2toSk5Za29sRGdOdENMc3hvZXN5ak9uMDFEM0hDVlJJRDdlYVpvRW1vU2FsYzRJYmljem8wT0lHTmVBYWtZYUVEUWVfTzBlOHRIeGc?oc=5",
+   "s": 1
+  },
+  {
+   "title": "Gold price forecast: Fed rate hike in December may limit recovery to ₹1.30 lakh per 10 grams by 2026-end, says expert - Livemint",
+   "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNSS1wSFJjclpDQzhXOXBYY2R0UTMxLTNVemdRRlAxaF9SME9weWNvQks3a0dhTER3Y1dMd25XX1AxMXlkOWZscV9HQlctUFV0bjJubzNvTDIwX1JjaG4wOFk0aDNQRDMwQVNzSXVvU0xNZDBrYlZqUlhyeHB4SzJoLXAxakc2dDg4MEFlX0RsUkhTWFhha21fUkZJdUNNZGpuUWptVFpQUHdxb19Nd3ZWdl9Sb2VvQUZBWk5jY2xVbVhQRDBqSlhXNHVFZkdydDNJTEZldkstWUtWSGN5Skl6RGlkR0NNV2Q2MzE5Z1hONnhRM0hfX28wSEJMTmFDczlsakJFRzdTc21TX3FxRERN0gGUAkFVX3lxTE1FVVNONG9GZlJqSVBzaEJWcXo2bFhBSFc4WEUyLWszZlhSeS1YSTlTYm9WUEZrbEtXVTlxcnVNOUtXd2lab2ZLdm1RTGxDWkNCX1RpMWFGeGp5ejlXRjJ3VV9yS1VJcmlvdlRjSVc1S0c3MVdDYnByNW11WFhDdlNfZVlMbHpGVU9sajJOdkZUWXRiLUotd3llMF9QNDhmNTRfYWpBTGxSYXBjT3U5endNTlFBeERELTlmcjg5TFUybWdjZjJyZE1sbmJtd1J5WUFzSFIyYk9wLWVBZU43dWpCeEJoTEo0M0U0V0U5SXFKSmxhRGJ6M3l0cXhrN2dpWjM5X3ZGZi1DVndaUUZVQV9YeXZxYw?oc=5",
+   "s": -1
+  },
+  {
    "title": "Gold Price Forecast: XAU/USD eyes weekly gain after hitting 15-month lows - FXStreet",
    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMGNmNnU5UXhtOGNEMUxoOW9MbnV3dlBTMVZqUGRsTUdJMElMTWxNOENLSW94TTlUVGJIRUhHT2pYOUJKOENtcXNzMXNzNEFfV1FUbjQ4ckJnLW5iUkRvUVgyMkg3VVVWVFYzR0dyYnhQWTM2Ym9mTVRhNEc5NVlScV81b2xVVmoycjd2MHoyV3JpcF9wb3N0ak9vQXh1cWlLQy1yal9rSy12Rmd6cmMzclpfRXJCbVZuZXhn?oc=5",
    "s": 1
   },
   {
-   "title": "Gold Price Forecast: Fed Rate Hike Bets Limit Recovery From $3,425 - FXEmpire",
-   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQMlR0MEFkVm0tbVZxQldSTHlwd0tMS2hDaHBTX29pbkpzbjB1RGh1SVl0bzlXSy1VLTB6N3cyRDE5Tk1YSnNyWGFrdDNGdnRxQ3p3dGY2Qm5SVi05LVNWdm9tN3BkMXRQVmpzUGp4dURuYktnQ0I5Z2lXZm43NG9BQncwbWt2N2I0VDdQOG9JLTgxS2Q2SE01WnB1NXJkMXpKZzE5SFFvckNkNl91SnJ0SnZiUFQ?oc=5",
-   "s": -1
-  },
-  {
-   "title": "Gold (XAU/USD) Price Forecast: Buyers Defend Critical Support After Sharp Selloff - FXEmpire",
-   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQNGZMTVE0MlI5cDRTYWh0UkJkcGszVFROQzlSNktoRUhYbTRfQWFiUEpFNEwzV2RZaWdxenEzSnJ2SDNxRlozQjB3di02c1IyUmpnVENfb3plNFp1cHNFQWZzOEQtRTFZb1dMekVwb2N1SmRfYkdWWXlsVmxJWXJoZFoxTGx3TWcxMjdqTGZtWDgxUFdzUlhXTUtya29SV1RObjZlb1FNUWRUMTNaNGloN3NfeWVtU1JFM3dNZWUwVkpPVEJReWJNdQ?oc=5",
+   "title": "Gold price rebounds above $3,660 as tech stocks recover despite Fed rate hike fears - Equiti Global",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOX1E1Z0hiOTZsY0tQLTBJOTl2WUtPUnBGdHVEaXRtS19NbTdocVExc1dNbmZEaG15UzhPdXBBQ0dvdmE5VGZTM0hYcFR3Vnh5UWFIdlJzTmhTWE1SM2lXWEZMNmc3amUya01ybWtiRC02NkdqcDJKdW5ISzU4LWhjRWQ4d01ybmNaRUhNN1RoaVVWYXJGeFoyeDdaa3V1OW1aVTdwakdR?oc=5",
    "s": -1
   }
  ]
